@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog Posts: on Dunkelheit</title>
+    <link>https://dunkelheit.biz/blog.html</link>
+    <description>Recent content in Blog Posts: on Dunkelheit</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 25 Sep 2021 13:00:00 +0100</lastBuildDate><atom:link href="https://dunkelheit.biz/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Emacs Rabbit Hole</title>
+      <link>https://dunkelheit.biz/blog/2021/the-emacs-rabbit-hole.html</link>
+      <pubDate>Sat, 25 Sep 2021 13:00:00 +0100</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/2021/the-emacs-rabbit-hole.html</guid>
+      <description>I have been using Emacs as my text editor for about a year now. I still have no idea what I am doing but at least I know why.
+Cozy and Powerful The Emacs client is very lightweight and it can be self-extended whilst running by using Elisp. I am not quite sure how it works as Elisp is too far down the rabbit hole and I haven&amp;rsquo;t been there yet.</description>
+    </item>
+    
+    <item>
+      <title>Modern Books Suck</title>
+      <link>https://dunkelheit.biz/blog/2021/modern-books-suck.html</link>
+      <pubDate>Fri, 24 Sep 2021 18:30:15 +0100</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/2021/modern-books-suck.html</guid>
+      <description>The commodification of books and its consequences have been a disaster for the human race. There is no legitimate reason for the continued printing of the modern paperback to continue.
+An Abundance of Nothing. Let&amp;rsquo;s state the obvious first. You walk into your local (or high street) book shop and what do you see promoted the most? Erotic fiction, books about why you should hate yourself, books promoting diets that will kill you.</description>
+    </item>
+    
+    <item>
+      <title>I Dont Care If You Use Linux</title>
+      <link>https://dunkelheit.biz/blog/2021/i-dont-care-if-you-use-linux.html</link>
+      <pubDate>Sun, 29 Aug 2021 19:30:00 +0100</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/2021/i-dont-care-if-you-use-linux.html</guid>
+      <description>You may have seen my previous post about Free (as in freedom) software and came to the conclusion that I want to &amp;ldquo;convert&amp;rdquo; normies to using Linux. This is not the case.
+I do not care if you use Linux or not, I do not care what distro you use either. Whatever works for you, works for you and that&amp;rsquo;s great.
+The reason I recommend that you use a Linux based OS is not that I personally gain from you doing so but that you will gain from it.</description>
+    </item>
+    
+    <item>
+      <title>Rewriting Some Posts</title>
+      <link>https://dunkelheit.biz/blog/2021/rewriting-some-posts.html</link>
+      <pubDate>Wed, 25 Aug 2021 19:30:00 +0100</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/2021/rewriting-some-posts.html</guid>
+      <description>I am rewriting some of the posts on the site to be less ranty and more consistent with one another. I kinda rushed some of them so they look daft. I will update this post when the changes have been made.
+Posts Updated:
+ Free As In Freedom RSS Is Based Video Games Are Over What Does The Steam Deck Mean? - Removed due to being crap.  Here&amp;rsquo;s the summary of the Steam Deck post:</description>
+    </item>
+    
+    <item>
+      <title>Email and XMPP Available</title>
+      <link>https://dunkelheit.biz/blog/2021/xmpp-available.html</link>
+      <pubDate>Tue, 03 Aug 2021 09:00:00 +0100</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/2021/xmpp-available.html</guid>
+      <description>XMPP chatting is now available.
+You can contact me at w@dunkelheit.biz
+Registration is not available at this time. I would recommend that you host your own XMPP service anyway.
+You can learn how to host your own XMPP server at landchad.net or by watching this video by Mental Outlaw.
+Update: Email is now available.
+You can email me at w@dunkelheit.biz.
+GPG information can be found on the contact page
+There will be no registration or email hosting for strangers.</description>
+    </item>
+    
+    <item>
+      <title>Free As In Freedom</title>
+      <link>https://dunkelheit.biz/blog/2021/free-as-in-freedom.html</link>
+      <pubDate>Mon, 02 Aug 2021 09:00:00 +0000</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/2021/free-as-in-freedom.html</guid>
+      <description>Libre, not gratis.
+I won&amp;rsquo;t go into the specifics of Free Software in this article, if you would like to know more check the references at the bottom of the page.
+Freedom is non-negotiable Your freedom as a user is the most important aspect of the software that you use.
+A common phrase found online regarding services such as search engines and email service providers goes something like &amp;ldquo;if it&amp;rsquo;s free then you are the product&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>RSS is Based!</title>
+      <link>https://dunkelheit.biz/blog/2021/rss-is-based.html</link>
+      <pubDate>Sat, 24 Jul 2021 08:20:25 +0000</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/2021/rss-is-based.html</guid>
+      <description>I recently started using Newsboat for RSS.
+Getting a proper RSS setup has been on my &amp;ldquo;cozy setup&amp;rdquo; checklist for a while. It didn&amp;rsquo;t take much time at all to get it working either.
+I previously just used browser plug-ins for this however this approach is terrible in practice.
+Now that I have a proper setup using Newsboat I can truly appreciate RSS feeds and I would recommend using them to anyone that wants to keep up to date with things without engaging with social media.</description>
+    </item>
+    
+    <item>
+      <title>Switching to Markdown Format</title>
+      <link>https://dunkelheit.biz/blog/2021/switching-to-markdown-format.html</link>
+      <pubDate>Fri, 16 Jul 2021 07:00:00 +0000</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/2021/switching-to-markdown-format.html</guid>
+      <description>I am starting to get comfortable with hugo as a static site generator, I know I haven&amp;rsquo;t made my theme the &amp;ldquo;correct way&amp;rdquo; but for now it works to an acceptable minimum and most importantly the pages it produces are formatted perfectly.
+I had an issue in that I couldn&amp;rsquo;t decide if I wanted to use Markdown or HTML when writing blog posts. The issue may seem silly (it is) but my reasons for having it were pretty straight forward:</description>
+    </item>
+    
+    <item>
+      <title>Learning German</title>
+      <link>https://dunkelheit.biz/blog/2021/learning-german.html</link>
+      <pubDate>Sun, 11 Jul 2021 07:00:00 +0000</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/2021/learning-german.html</guid>
+      <description>I have decided to learn German. I have always had an interest in learning another language but due to the terrible methodology used by the education system and cringe meme apps like DuoLingo I was never motivated enough to stick them out. However I recently came to discover the Michel Thomas method after reading these articles by Luke Smith: Notes on Learning Languages and Learning European Languages (Michel Thomas). I won&amp;rsquo;t bother to sumamrize them here but you should definetely read them if you are interested in learning a language.</description>
+    </item>
+    
+    <item>
+      <title>Video Games Are Over</title>
+      <link>https://dunkelheit.biz/blog/2021/video-games-are-over.html</link>
+      <pubDate>Sat, 10 Jul 2021 07:00:00 +0000</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/2021/video-games-are-over.html</guid>
+      <description>Modern video games are an industrialised product that satisfies checklists at the cost of a unique identity and product. They are deceptively marketted and maliciously monetized.
+Occasionally a video game will come out that is just trying to be a fun video game. These are few and far between.
+This is not a nostalgia post, modern video games are genuinely terrible.
+Why do they suck? The simple answer and the correct one is: money.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>software on Dunkelheit</title>
+    <link>https://dunkelheit.biz/tags/software.html</link>
+    <description>Recent content in software on Dunkelheit</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 25 Sep 2021 13:00:00 +0100</lastBuildDate><atom:link href="https://dunkelheit.biz/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Emacs Rabbit Hole</title>
+      <link>https://dunkelheit.biz/blog/2021/the-emacs-rabbit-hole.html</link>
+      <pubDate>Sat, 25 Sep 2021 13:00:00 +0100</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/2021/the-emacs-rabbit-hole.html</guid>
+      <description>I have been using Emacs as my text editor for about a year now. I still have no idea what I am doing but at least I know why.
+Cozy and Powerful The Emacs client is very lightweight and it can be self-extended whilst running by using Elisp. I am not quite sure how it works as Elisp is too far down the rabbit hole and I haven&amp;rsquo;t been there yet.</description>
+    </item>
+    
+    <item>
+      <title>I Dont Care If You Use Linux</title>
+      <link>https://dunkelheit.biz/blog/2021/i-dont-care-if-you-use-linux.html</link>
+      <pubDate>Sun, 29 Aug 2021 19:30:00 +0100</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/2021/i-dont-care-if-you-use-linux.html</guid>
+      <description>You may have seen my previous post about Free (as in freedom) software and came to the conclusion that I want to &amp;ldquo;convert&amp;rdquo; normies to using Linux. This is not the case.
+I do not care if you use Linux or not, I do not care what distro you use either. Whatever works for you, works for you and that&amp;rsquo;s great.
+The reason I recommend that you use a Linux based OS is not that I personally gain from you doing so but that you will gain from it.</description>
+    </item>
+    
+    <item>
+      <title>Free As In Freedom</title>
+      <link>https://dunkelheit.biz/blog/2021/free-as-in-freedom.html</link>
+      <pubDate>Mon, 02 Aug 2021 09:00:00 +0000</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/2021/free-as-in-freedom.html</guid>
+      <description>Libre, not gratis.
+I won&amp;rsquo;t go into the specifics of Free Software in this article, if you would like to know more check the references at the bottom of the page.
+Freedom is non-negotiable Your freedom as a user is the most important aspect of the software that you use.
+A common phrase found online regarding services such as search engines and email service providers goes something like &amp;ldquo;if it&amp;rsquo;s free then you are the product&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>RSS is Based!</title>
+      <link>https://dunkelheit.biz/blog/2021/rss-is-based.html</link>
+      <pubDate>Sat, 24 Jul 2021 08:20:25 +0000</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/2021/rss-is-based.html</guid>
+      <description>I recently started using Newsboat for RSS.
+Getting a proper RSS setup has been on my &amp;ldquo;cozy setup&amp;rdquo; checklist for a while. It didn&amp;rsquo;t take much time at all to get it working either.
+I previously just used browser plug-ins for this however this approach is terrible in practice.
+Now that I have a proper setup using Newsboat I can truly appreciate RSS feeds and I would recommend using them to anyone that wants to keep up to date with things without engaging with social media.</description>
+    </item>
+    
+  </channel>
+</rss>

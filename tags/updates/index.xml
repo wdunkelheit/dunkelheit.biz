@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>updates on Dunkelheit</title>
+    <link>https://dunkelheit.biz/tags/updates.html</link>
+    <description>Recent content in updates on Dunkelheit</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 25 Aug 2021 19:30:00 +0100</lastBuildDate><atom:link href="https://dunkelheit.biz/tags/updates/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rewriting Some Posts</title>
+      <link>https://dunkelheit.biz/blog/2021/rewriting-some-posts.html</link>
+      <pubDate>Wed, 25 Aug 2021 19:30:00 +0100</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/2021/rewriting-some-posts.html</guid>
+      <description>I am rewriting some of the posts on the site to be less ranty and more consistent with one another. I kinda rushed some of them so they look daft. I will update this post when the changes have been made.
+Posts Updated:
+ Free As In Freedom RSS Is Based Video Games Are Over What Does The Steam Deck Mean? - Removed due to being crap.  Here&amp;rsquo;s the summary of the Steam Deck post:</description>
+    </item>
+    
+    <item>
+      <title>Email and XMPP Available</title>
+      <link>https://dunkelheit.biz/blog/2021/xmpp-available.html</link>
+      <pubDate>Tue, 03 Aug 2021 09:00:00 +0100</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/2021/xmpp-available.html</guid>
+      <description>XMPP chatting is now available.
+You can contact me at w@dunkelheit.biz
+Registration is not available at this time. I would recommend that you host your own XMPP service anyway.
+You can learn how to host your own XMPP server at landchad.net or by watching this video by Mental Outlaw.
+Update: Email is now available.
+You can email me at w@dunkelheit.biz.
+GPG information can be found on the contact page
+There will be no registration or email hosting for strangers.</description>
+    </item>
+    
+    <item>
+      <title>Switching to Markdown Format</title>
+      <link>https://dunkelheit.biz/blog/2021/switching-to-markdown-format.html</link>
+      <pubDate>Fri, 16 Jul 2021 07:00:00 +0000</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/2021/switching-to-markdown-format.html</guid>
+      <description>I am starting to get comfortable with hugo as a static site generator, I know I haven&amp;rsquo;t made my theme the &amp;ldquo;correct way&amp;rdquo; but for now it works to an acceptable minimum and most importantly the pages it produces are formatted perfectly.
+I had an issue in that I couldn&amp;rsquo;t decide if I wanted to use Markdown or HTML when writing blog posts. The issue may seem silly (it is) but my reasons for having it were pretty straight forward:</description>
+    </item>
+    
+  </channel>
+</rss>

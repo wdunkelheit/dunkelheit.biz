@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Dunkelheit</title>
+    <link>https://dunkelheit.biz/tags.html</link>
+    <description>Recent content in Tags on Dunkelheit</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 25 Sep 2021 13:00:00 +0100</lastBuildDate><atom:link href="https://dunkelheit.biz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>software</title>
+      <link>https://dunkelheit.biz/tags/software.html</link>
+      <pubDate>Sat, 25 Sep 2021 13:00:00 +0100</pubDate>
+      
+      <guid>https://dunkelheit.biz/tags/software.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>technology</title>
+      <link>https://dunkelheit.biz/tags/technology.html</link>
+      <pubDate>Sat, 25 Sep 2021 13:00:00 +0100</pubDate>
+      
+      <guid>https://dunkelheit.biz/tags/technology.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>books</title>
+      <link>https://dunkelheit.biz/tags/books.html</link>
+      <pubDate>Fri, 24 Sep 2021 18:30:15 +0100</pubDate>
+      
+      <guid>https://dunkelheit.biz/tags/books.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://dunkelheit.biz/tags/linux.html</link>
+      <pubDate>Sun, 29 Aug 2021 19:30:00 +0100</pubDate>
+      
+      <guid>https://dunkelheit.biz/tags/linux.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>philosophy</title>
+      <link>https://dunkelheit.biz/tags/philosophy.html</link>
+      <pubDate>Sun, 29 Aug 2021 19:30:00 +0100</pubDate>
+      
+      <guid>https://dunkelheit.biz/tags/philosophy.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>updates</title>
+      <link>https://dunkelheit.biz/tags/updates.html</link>
+      <pubDate>Wed, 25 Aug 2021 19:30:00 +0100</pubDate>
+      
+      <guid>https://dunkelheit.biz/tags/updates.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>language</title>
+      <link>https://dunkelheit.biz/tags/language.html</link>
+      <pubDate>Sun, 11 Jul 2021 07:00:00 +0000</pubDate>
+      
+      <guid>https://dunkelheit.biz/tags/language.html</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

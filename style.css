@@ -89,6 +89,19 @@ code {
 	padding: 4px;
 }
 
+blockquote {
+	display: block;
+	border-color: white;
+	border-width: 1px;
+	border-style: inset;
+	border-radius: 15px;
+	padding: 8px;
+}
+
+blockquote p {
+	margin: 0;
+}
+
 .snippet {
 	white-space: pre;
 }
@@ -173,8 +186,9 @@ nav li:hover, footer li:hover, .tag-list li:hover {
 
 @media (min-width: 55em){
 
-	main{
+	body{
 		max-width: 960px;
+		margin: auto;
 	}
 
 	.column {

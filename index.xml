@@ -6,7 +6,84 @@
     <description>Recent content on Dunkelheit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 27 Sep 2021 13:00:00 +0100</lastBuildDate><atom:link href="https://dunkelheit.biz/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Oct 2021 10:00:00 +0100</lastBuildDate><atom:link href="https://dunkelheit.biz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Site Update October 2021</title>
+      <link>https://dunkelheit.biz/blog/2021/site-update-october-2021.html</link>
+      <pubDate>Sat, 02 Oct 2021 10:00:00 +0100</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/2021/site-update-october-2021.html</guid>
+      <description>&lt;p&gt;Henlo frens, this is a quick update to let you know what has changed with the site recently and what I plan to do going forward.&lt;/p&gt;
+&lt;h3 id=&#34;recent-articles&#34;&gt;Recent Articles&lt;/h3&gt;
+&lt;p&gt;I have posted a few articles in the past week, I guess I was just in the mood for writing after almost a month of no updates.&lt;/p&gt;
+&lt;p&gt;The articles:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2nd October 2021 - &lt;a href=&#34;stop-bloating-your-shell.html&#34;&gt;Stop Bloating Your Shell&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;27th September 2021 - &lt;a href=&#34;the-emacs-rabbit-hole.html&#34;&gt;The Emacs Rabbit Hole&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;24th September 2021 - &lt;a href=&#34;modern-books-suck.html&#34;&gt;Modern Books Suck&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;books&#34;&gt;Books&lt;/h4&gt;
+&lt;p&gt;In the Modern Books Suck article I ranted about books. I also mentioned that I would like to start writing my own book reviews. I don&amp;rsquo;t expect to have started this until later this year due to time constraints.&lt;/p&gt;
+&lt;h3 id=&#34;website-update&#34;&gt;Website Update&lt;/h3&gt;
+&lt;p&gt;Did you notice the Halloween Apus? It&amp;rsquo;s Spooktober! 👻 I experimented with a few designs for them but this one seems the least intrusive.&lt;/p&gt;
+&lt;p&gt;I also finally decided on the background colour for the site. I settled for ThinkPad grey, also known as HTML notation &lt;code&gt;#222222&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Additionally I have started work on a new layout for the site. I don&amp;rsquo;t plan to replace the current one with it. I don&amp;rsquo;t yet know how or if I will use it, I will update if this changes.&lt;/p&gt;
+&lt;h3 id=&#34;anti-github-gang&#34;&gt;Anti-GitHub Gang&lt;/h3&gt;
+&lt;p&gt;I am not a fan of GitHub, I never really have been. It encourages bad practices and a monolithic approach to design and engineering. Additionally it is owned by Microsoft, who have been using the site to scrape code from millions of projects to power their license violating &amp;ldquo;AI&amp;rdquo; code generator. This is a bridge too far and I will be retiring my GitHub account in some manner in the near future.&lt;/p&gt;
+&lt;p&gt;You will still be able to find my projects on &lt;a href=&#34;https://gitlab.com/wdunkelheit&#34;&gt;GitLab&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I also plan to host my own Git web front end of some kind, I haven&amp;rsquo;t decided which one yet.&lt;/p&gt;
+&lt;h3 id=&#34;trying-out-openbsd&#34;&gt;Trying out OpenBSD&lt;/h3&gt;
+&lt;p&gt;I have been meaning to try out OpenBSD for a long time, I plan to install it on hardware in the near future and report my thoughts on the experience here.&lt;/p&gt;
+&lt;h3 id=&#34;returning-to-university&#34;&gt;Returning to University&lt;/h3&gt;
+&lt;p&gt;I am returning to University, it may or may not have an effect on how often I can post content to the site.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Stop Bloating Your Shell</title>
+      <link>https://dunkelheit.biz/blog/2021/stop-bloating-your-shell.html</link>
+      <pubDate>Sat, 02 Oct 2021 09:00:00 +0100</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/2021/stop-bloating-your-shell.html</guid>
+      <description>&lt;p&gt;Probably my favourite part of using Linux is that I can customise my eperience.&lt;/p&gt;
+&lt;p&gt;The customisation options for some of the fundamental tools I use are endless and they are customisable by design. I have probably spent more time customising, modifying and tweaking my shell configurations than any other piece of software on my system.&lt;/p&gt;
+&lt;p&gt;For this article I will be using &lt;code&gt;zsh&lt;/code&gt; as the example shell unless stated otherwise.&lt;/p&gt;
+&lt;h3 id=&#34;a-shell-is-a-tool-not-a-toy&#34;&gt;A shell is a tool, not a toy&lt;/h3&gt;
+&lt;p&gt;Simply put the shell is a tool. Whether you are using it interactively or you are scripting tasks, you must use your shell correctly.&lt;/p&gt;
+&lt;p&gt;Since the shell is a tool you should be more concerned with what it is for than how it looks. You should also be aware of the dangers of using it incorrectly and the dangers of misunderstanding it while using it.&lt;/p&gt;
+&lt;p&gt;Most shells support a form of regex which allows you to be as explicit or implicit as you need when creating a command to be run. The use of the &lt;code&gt;*&lt;/code&gt; on its own in shell scripts should be avoided for this reason. You don&amp;rsquo;t want to accidentally delete your entire home folder.&lt;/p&gt;
+&lt;h3 id=&#34;you-dont-need-plugin-managers&#34;&gt;You Don&amp;rsquo;t Need Plugin Managers&lt;/h3&gt;
+&lt;p&gt;The use of plugin managers for a shell is peak soydev and a completely ridiculous concept, so why do so many people fall for it? The answer is simple, they are soydevs and do not understand the shell.&lt;/p&gt;
+&lt;p&gt;The most popular plugin manager seems to be &lt;code&gt;oh-my-zsh&lt;/code&gt; for the &lt;code&gt;zsh&lt;/code&gt; shell. It is nothing more than an obfuscated fronted for features that are built into &lt;code&gt;zsh&lt;/code&gt;. You do not need it to install anything. You can &lt;code&gt;source&lt;/code&gt; these plugins manually in your &lt;code&gt;.zshrc&lt;/code&gt; file.&lt;/p&gt;
+&lt;p&gt;Using these managers makes your shell take longer to load, adds unneeded complexity and causes problems if you want to do something outside of its scope. Not only that but it turns your &lt;code&gt;.zshrc&lt;/code&gt; file into a complete and utter mess for no reason.&lt;/p&gt;
+&lt;p&gt;Stop using them, you don&amp;rsquo;t need them. It&amp;rsquo;s lazy and encourages bad practices.&lt;/p&gt;
+&lt;h3 id=&#34;make-your-own-plugins&#34;&gt;Make your own plugins!&lt;/h3&gt;
+&lt;p&gt;Do you have a ridiculous number of aliases? Would you prefer not to scroll through them? You can make these into their own plugin!&lt;/p&gt;
+&lt;p&gt;As I mentioned above with how to load a plugin you simply need to source the plugin file. Plugin files for &lt;code&gt;zsh&lt;/code&gt; are actually just &lt;code&gt;.zsh&lt;/code&gt; files and you can make your own. All you need to do is place your aliases in a new file, place the file somewhere appropriate, ensure that the file&amp;rsquo;s shebang is correct: &lt;code&gt;#!/bin/zsh&lt;/code&gt; and then source that file in the .zshrc file like so:
+&lt;code&gt;source /path/to/new/alias/plugin.zsh 2&amp;gt;/dev/null&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;I personally don&amp;rsquo;t do this with my aliases and would recommend not doing so but this is a good example of how plugins work, they are just &lt;code&gt;.zsh&lt;/code&gt; scripts!&lt;/p&gt;
+&lt;h3 id=&#34;aliasing-correctly&#34;&gt;Aliasing correctly.&lt;/h3&gt;
+&lt;p&gt;Aliases are probably my favourite part of using the shell for most of my needs. You can ensure that a command such as &lt;code&gt;ls&lt;/code&gt; always uses colours, you can create adjacently named commands such as &lt;code&gt;ll&lt;/code&gt; for example to run &lt;code&gt;ls -l&lt;/code&gt; when needed.&lt;/p&gt;
+&lt;p&gt;Additionally you can bind scripts and long and complicated single line commands to a single word for ease of use. For example I use &lt;code&gt;dotfiles&lt;/code&gt; for managing my dotfiles git repository, I have some scripts that I also like to invoke for things such as checking for updates from all programs on my system, checking crypto prices, etc that I can do with a single word instead of writing the full file path. Although I do I keep these scripts in my &lt;code&gt;PATH&lt;/code&gt; I use a naming convention that makes it easier to tell what script it is but it is easier to just invoke them with an alias instead.&lt;/p&gt;
+&lt;p&gt;One thing you should not do with aliases however is use them to replace a program. It is bad practice to &amp;ldquo;rename&amp;rdquo; a core program such as &lt;code&gt;ls&lt;/code&gt; with an alternative you found online. You should instead be using this tool by its name so that you are aware of what you are doing. Using aliases to obfuscate what you are doing is dangerous.&lt;/p&gt;
+&lt;h3 id=&#34;shebang&#34;&gt;Shebang&lt;/h3&gt;
+&lt;p&gt;The shebang (shell bang) is used to ensure that the correct shell language is used when a file is run. For example &lt;code&gt;#!/bin/sh&lt;/code&gt; would be used if a script is POSIX compliant only and uses no Non-POSIX commands. For example if you write a script in &lt;code&gt;BASH&lt;/code&gt; and it uses bashisms, then your shebang should be &lt;code&gt;#!/bin/bash&lt;/code&gt; instead.&lt;/p&gt;
+&lt;p&gt;Setting the shebang in your scripts correctly means that when you invoke them from another shell the correct shell program is used to interpret the script. There are tools for testing your shell scripts so that you know what shebang to use, what adjustments to make to use &lt;code&gt;sh&lt;/code&gt;, etc.&lt;/p&gt;
+&lt;p&gt;Ideally all scripts should be POSIX compliant only, bashisms are very tempting to use as they do give you more options for your script but there is a good chance you just do not need them.&lt;/p&gt;
+&lt;h3 id=&#34;remote-shells&#34;&gt;Remote Shells&lt;/h3&gt;
+&lt;p&gt;If you connect to other devices using a tool like &lt;code&gt;ssh&lt;/code&gt; then you should ensure that the remote user&amp;rsquo;s shell config is configured correctly for this. A few examples of what not to do are: invocation of programs with &lt;code&gt;stdout&lt;/code&gt; returns, hard declaring terminal (and emulator) compatibility, starting background processes.&lt;/p&gt;
+&lt;h3 id=&#34;additional-recommendations&#34;&gt;Additional recommendations&lt;/h3&gt;
+&lt;p&gt;When declaring your &lt;code&gt;PATH&lt;/code&gt; variable you should do so explicitly, it may seem fun to use a script to do this but that is additional startup logic that you do not need and a script that you now need to maintain. Additionally you should not be declaring the &lt;code&gt;PATH&lt;/code&gt; in your &lt;code&gt;.zshrc&lt;/code&gt; file it should be declared in your &lt;code&gt;.zprofile&lt;/code&gt; file so that your application launcher (assuming dmenu) is &lt;code&gt;PATH&lt;/code&gt; aware.&lt;/p&gt;
+&lt;p&gt;So instead of using a script that iterates through all the sub-directories of your &lt;code&gt;.local/bin/&lt;/code&gt; directory just declare them like so:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;export PATH&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$PATH&lt;span style=&#34;color:#e6db74&#34;&gt;:&lt;/span&gt;$HOME&lt;span style=&#34;color:#e6db74&#34;&gt;/.local/bin/&amp;#34;&lt;/span&gt;
+export PATH&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$PATH&lt;span style=&#34;color:#e6db74&#34;&gt;:&lt;/span&gt;$HOME&lt;span style=&#34;color:#e6db74&#34;&gt;/.local/bin/go&amp;#34;&lt;/span&gt;
+export PATH&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$PATH&lt;span style=&#34;color:#e6db74&#34;&gt;:&lt;/span&gt;$HOME&lt;span style=&#34;color:#e6db74&#34;&gt;/.local/bin/sh&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This example is from my &lt;code&gt;.zshrc&lt;/code&gt; file, which you can find here: &lt;a href=&#34;https://gitlab.com/wdunkelheit/dotfiles/-/blob/master/.config/zsh/.zshrc&#34;&gt;GitLab&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;learning-process&#34;&gt;Learning process&lt;/h3&gt;
+&lt;p&gt;Ultimately, using the shell is a learning process. The more you use it and tinker with it they more you will learn. Feel free to &lt;a href=&#34;https://dunkelheit.biz/contact.html&#34;&gt;email me&lt;/a&gt; about this subject if you would like help or would like to correct anything I have said.&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>The Emacs Rabbit Hole</title>
       <link>https://dunkelheit.biz/blog/2021/the-emacs-rabbit-hole.html</link>

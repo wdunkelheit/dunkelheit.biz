@@ -6,7 +6,18 @@
     <description>Recent content in technology on Dunkelheit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 27 Sep 2021 13:00:00 +0100</lastBuildDate><atom:link href="https://dunkelheit.biz/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Oct 2021 09:00:00 +0100</lastBuildDate><atom:link href="https://dunkelheit.biz/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stop Bloating Your Shell</title>
+      <link>https://dunkelheit.biz/blog/2021/stop-bloating-your-shell.html</link>
+      <pubDate>Sat, 02 Oct 2021 09:00:00 +0100</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/2021/stop-bloating-your-shell.html</guid>
+      <description>Probably my favourite part of using Linux is that I can customise my eperience.
+The customisation options for some of the fundamental tools I use are endless and they are customisable by design. I have probably spent more time customising, modifying and tweaking my shell configurations than any other piece of software on my system.
+For this article I will be using zsh as the example shell unless stated otherwise.</description>
+    </item>
+    
     <item>
       <title>The Emacs Rabbit Hole</title>
       <link>https://dunkelheit.biz/blog/2021/the-emacs-rabbit-hole.html</link>

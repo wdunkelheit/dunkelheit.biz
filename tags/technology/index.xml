@@ -6,15 +6,15 @@
     <description>Recent content in technology on Dunkelheit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 25 Sep 2021 13:00:00 +0100</lastBuildDate><atom:link href="https://dunkelheit.biz/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Sep 2021 13:00:00 +0100</lastBuildDate><atom:link href="https://dunkelheit.biz/tags/technology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Emacs Rabbit Hole</title>
       <link>https://dunkelheit.biz/blog/2021/the-emacs-rabbit-hole.html</link>
-      <pubDate>Sat, 25 Sep 2021 13:00:00 +0100</pubDate>
+      <pubDate>Mon, 27 Sep 2021 13:00:00 +0100</pubDate>
       
       <guid>https://dunkelheit.biz/blog/2021/the-emacs-rabbit-hole.html</guid>
       <description>I have been using Emacs as my text editor for about a year now. I still have no idea what I am doing but at least I know why.
-Cozy and Powerful The Emacs client is very lightweight and it can be self-extended whilst running by using Elisp. I am not quite sure how it works as Elisp is too far down the rabbit hole and I haven&amp;rsquo;t been there yet.</description>
+Cosy and Powerful The Emacs client is very lightweight and it can be self-extended whilst running by using Elisp. I am not quite sure how it works as Elisp is too far down the rabbit hole and I haven&amp;rsquo;t been there yet.</description>
     </item>
     
     <item>
@@ -47,7 +47,7 @@ A common phrase found online regarding services such as search engines and email
       
       <guid>https://dunkelheit.biz/blog/2021/rss-is-based.html</guid>
       <description>I recently started using Newsboat for RSS.
-Getting a proper RSS setup has been on my &amp;ldquo;cozy setup&amp;rdquo; checklist for a while. It didn&amp;rsquo;t take much time at all to get it working either.
+Getting a proper RSS setup has been on my &amp;ldquo;cosy setup&amp;rdquo; checklist for a while. It didn&amp;rsquo;t take much time at all to get it working either.
 I previously just used browser plug-ins for this however this approach is terrible in practice.
 Now that I have a proper setup using Newsboat I can truly appreciate RSS feeds and I would recommend using them to anyone that wants to keep up to date with things without engaging with social media.</description>
     </item>

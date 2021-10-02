@@ -275,3 +275,10 @@ nav li:hover, footer li:hover, .tag-list li:hover {
 #list-tag-technology:BEFORE { content: "🏭 "; }
 #list-tag-updates:BEFORE { content: "🔄 "; }
 #list-tag-video-games:BEFORE { content: "🎮 "; }
+
+#halloween {
+    background-image: url(/pix/apuween.webp);
+    background-repeat: repeat;
+    background-size: 30px;
+    height: 24px;
+}

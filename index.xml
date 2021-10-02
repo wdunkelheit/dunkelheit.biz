@@ -6,15 +6,15 @@
     <description>Recent content on Dunkelheit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 25 Sep 2021 13:00:00 +0100</lastBuildDate><atom:link href="https://dunkelheit.biz/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Sep 2021 13:00:00 +0100</lastBuildDate><atom:link href="https://dunkelheit.biz/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Emacs Rabbit Hole</title>
       <link>https://dunkelheit.biz/blog/2021/the-emacs-rabbit-hole.html</link>
-      <pubDate>Sat, 25 Sep 2021 13:00:00 +0100</pubDate>
+      <pubDate>Mon, 27 Sep 2021 13:00:00 +0100</pubDate>
       
       <guid>https://dunkelheit.biz/blog/2021/the-emacs-rabbit-hole.html</guid>
       <description>&lt;p&gt;I have been using Emacs as my text editor for about a year now. I still have no idea what I am doing but at least I know why.&lt;/p&gt;
-&lt;h3 id=&#34;cozy-and-powerful&#34;&gt;Cozy and Powerful&lt;/h3&gt;
+&lt;h3 id=&#34;cosy-and-powerful&#34;&gt;Cosy and Powerful&lt;/h3&gt;
 &lt;p&gt;The Emacs client is very lightweight and it can be self-extended whilst running by using Elisp. I am not quite sure how it works as Elisp is too far down the rabbit hole and I haven&amp;rsquo;t been there yet.&lt;/p&gt;
 &lt;p&gt;Emacs is very modular to the point that you can use it as an entire operating system if you so choose. It can be used as a windowing manager, a web browser, an email client. Not bad for a text editor right?&lt;/p&gt;
 &lt;p&gt;Some believe that this makes Emacs monolithic but that is due to a misconception that Emacs itself is doing all of these things and not the independent Elisp and C programs running within it.&lt;/p&gt;
@@ -73,7 +73,7 @@
 &lt;p&gt;The reason I recommend that you use a Linux based OS is not that I personally gain from you doing so but that you will gain from it. I have no attachment to what you use or how you use it. Linux fanboyism is a ridiculous concept.&lt;/p&gt;
 &lt;h3 id=&#34;further-confusion&#34;&gt;Further Confusion&lt;/h3&gt;
 &lt;p&gt;Regarding the &amp;ldquo;What Does The Steam Deck mean?&amp;rdquo; post, someone read it and completely misunderstood it. They were under the impression that I wish to &amp;ldquo;convert&amp;rdquo; gamers to Linux. LOL.&lt;/p&gt;
-&lt;p&gt;I had inteded to delete that post for being crap anyway, which I did.&lt;/p&gt;
+&lt;p&gt;I had intended to delete that post for being crap anyway, which I did.&lt;/p&gt;
 &lt;p&gt;The point I was trying to make could be made in a sentence but I tried to give too much context. So I will make my point here and consider the issue resolved:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;The Steam Deck will put more eyes on Linux as a gaming platform. It will not convert the masses to a new operating system that they have no apparent need for. This will not benefit me, I don&amp;rsquo;t really care.&lt;/p&gt;
@@ -199,13 +199,13 @@
       
       <guid>https://dunkelheit.biz/blog/2021/rss-is-based.html</guid>
       <description>&lt;p&gt;I recently started using Newsboat for RSS.&lt;/p&gt;
-&lt;p&gt;Getting a proper RSS setup has been on my &amp;ldquo;cozy setup&amp;rdquo; checklist for a while. It didn&amp;rsquo;t take much time at all to get it working either.&lt;/p&gt;
+&lt;p&gt;Getting a proper RSS setup has been on my &amp;ldquo;cosy setup&amp;rdquo; checklist for a while. It didn&amp;rsquo;t take much time at all to get it working either.&lt;/p&gt;
 &lt;p&gt;I previously just used browser plug-ins for this however this approach is terrible in practice.&lt;/p&gt;
 &lt;p&gt;Now that I have a proper setup using Newsboat I can truly appreciate RSS feeds and I would recommend using them to anyone that wants to keep up to date with things without engaging with social media.&lt;/p&gt;
 &lt;h2 id=&#34;what-is-rss&#34;&gt;What is RSS?&lt;/h2&gt;
 &lt;p&gt;RSS is an abbreviation of Really Simple Syndication, although this isn&amp;rsquo;t it&amp;rsquo;s original name. Put simply it is a way for you to download a feed from a website and keep up to date with it.&lt;/p&gt;
 &lt;p&gt;This means that instead of using intrusive and manipulated social media feeds to keep up to date with your favourite web feeds you can have it all in one place on your computer.&lt;/p&gt;
-&lt;p&gt;You may infact already be using RSS without realising it. Did you know that most podcast apps are just RSS readers with a media player?&lt;/p&gt;
+&lt;p&gt;You may in fact already be using RSS without realising it. Did you know that most podcast apps are just RSS readers with a media player?&lt;/p&gt;
 &lt;p&gt;Using RSS you can completely replace the need for a Google account to keep up to date with your favourite YouTube channels. Although adding YouTube channels to an RSS feed isn&amp;rsquo;t as straightforward as blogs or podcasts it is doable and once you have done it once the process is quickly repeatable.&lt;/p&gt;
 &lt;p&gt;One small caveat to this is that YouTube can choose to eliminate RSS feeds at any time so it may be worth keeping a separate list of channels you subscribe to for the inevitable third party solution that pops up (or perhaps already exists? 👀 Let me know please) if this situation were to arise.&lt;/p&gt;
 &lt;h2 id=&#34;why-use-rss&#34;&gt;Why use RSS?&lt;/h2&gt;
@@ -214,7 +214,7 @@
 &lt;li&gt;&lt;strong&gt;Convenience:&lt;/strong&gt; Every feed you care for in one place, in whatever order you want, categorised, tagged, etc however you see fit.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Minimalist:&lt;/strong&gt; No need for accounts or web services. Just a list, add or remove as needed.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Portable:&lt;/strong&gt; You can read the feeds using any client you like.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Privacy:&lt;/strong&gt; RSS just loads an XML file from a webserver, there is no tracking, javascript, middleman services, etc. You get the feed sent directly to you without the need to identify yourself (beyond IP requirements).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Privacy:&lt;/strong&gt; RSS just loads an XML file from a web server, there is no tracking, JavaScript, middleman services, etc. You get the feed sent directly to you without the need to identify yourself (beyond IP requirements).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;how-do-i-get-started&#34;&gt;How do I get started?&lt;/h2&gt;
 &lt;p&gt;You can get started by downloading an RSS client. I recommend the following:&lt;/p&gt;
@@ -271,7 +271,7 @@
 &lt;/ol&gt;
 &lt;p&gt;Now the issue here should be obvious, I was effectively putting in twice the work for the same result. But this did mean that I had absolute control of the page contents and could ensure certain elements are displayed correctly if I wanted them to have a unique style or position that Markdown itself wouldn&amp;rsquo;t produce.&lt;/p&gt;
 &lt;p&gt;I also realised after the &lt;a href=&#34;learning-german.html&#34;&gt;Learning German&lt;/a&gt; entry that I could just take the HTML output from the &lt;code&gt;hugo&lt;/code&gt; output. Oops.&lt;/p&gt;
-&lt;p&gt;My goal was to eliminate steps 3 and 4 above. The easiest way to do this is to just eliminate HTML conversion of the entire document and use &lt;code&gt;html&lt;/code&gt; when needed instead.&lt;/p&gt;
+&lt;p&gt;My goal was to eliminate steps 3 and 4 above. The easiest way to do this is to just eliminate HTML conversion of the entire document and use &lt;code&gt;HTML&lt;/code&gt; when needed instead.&lt;/p&gt;
 &lt;p&gt;This eliminates steps 3 and 4 as well as allowing me to control elements very specifically when needed and keeps the document readable.&lt;/p&gt;
 &lt;p&gt;So going forward all posts will be created this way unless it isn&amp;rsquo;t viable for the post type. All previous posts will be converted too. Top level pages AKA &amp;ldquo;base&amp;rdquo; pages will still be written in HTML for functional reasons.&lt;/p&gt;
 &lt;p&gt;Additionally the site will now be rendered using the &lt;code&gt;uglyURLs = true&lt;/code&gt; option as I don&amp;rsquo;t like the look of &lt;code&gt;/blog/post-name/index.html&lt;/code&gt; in the file tree.&lt;/p&gt;
@@ -284,7 +284,7 @@
       <pubDate>Sun, 11 Jul 2021 07:00:00 +0000</pubDate>
       
       <guid>https://dunkelheit.biz/blog/2021/learning-german.html</guid>
-      <description>&lt;p&gt;I have decided to learn German. I have always had an interest in learning another language but due to the terrible methodology used by the education system and cringe meme apps like DuoLingo I was never motivated enough to stick them out. However I recently came to discover the Michel Thomas method after reading these articles by Luke Smith: &lt;a href=&#34;https://lukesmith.xyz/articles/notes-on-learning-languages&#34;&gt;Notes on Learning Languages&lt;/a&gt; and &lt;a href=&#34;https://lukesmith.xyz/articles/learning-european-languages-michel-thomas&#34;&gt;Learning European Languages (Michel Thomas)&lt;/a&gt;. I won&amp;rsquo;t bother to sumamrize them here but you should definetely read them if you are interested in learning a language.&lt;/p&gt;
+      <description>&lt;p&gt;I have decided to learn German. I have always had an interest in learning another language but due to the terrible methodology used by the education system and cringe meme apps like DuoLingo I was never motivated enough to stick them out. However I recently came to discover the Michel Thomas method after reading these articles by Luke Smith: &lt;a href=&#34;https://lukesmith.xyz/articles/notes-on-learning-languages&#34;&gt;Notes on Learning Languages&lt;/a&gt; and &lt;a href=&#34;https://lukesmith.xyz/articles/learning-european-languages-michel-thomas&#34;&gt;Learning European Languages (Michel Thomas)&lt;/a&gt;. I won&amp;rsquo;t bother to summarize them here but you should definitely read them if you are interested in learning a language.&lt;/p&gt;
 &lt;p&gt;After reading these articles I was convinced to give the method a try. I will update this post every so often with my thoughts on the method so far.&lt;/p&gt;
 &lt;h2 id=&#34;so-why-german&#34;&gt;So why German?&lt;/h2&gt;
 &lt;p&gt;It&amp;rsquo;s probably the most relevant language for me to learn based on its similarities to English, my musical interests and the location of a lot of my friends. I would love to be able to travel there without being a &amp;ldquo;that guy&amp;rdquo; tourist that just speaks in English the whole time.&lt;/p&gt;
@@ -300,7 +300,7 @@
       <pubDate>Sat, 10 Jul 2021 07:00:00 +0000</pubDate>
       
       <guid>https://dunkelheit.biz/blog/2021/video-games-are-over.html</guid>
-      <description>&lt;p&gt;Modern video games are an industrialised product that satisfies checklists at the cost of a unique identity and product. They are deceptively marketted and maliciously monetized.&lt;/p&gt;
+      <description>&lt;p&gt;Modern video games are an industrialised product that satisfies checklists at the cost of a unique identity and product. They are deceptively marketed and maliciously monetized.&lt;/p&gt;
 &lt;p&gt;Occasionally a video game will come out that is just trying to be a fun video game. These are few and far between.&lt;/p&gt;
 &lt;p&gt;This is not a nostalgia post, modern video games are genuinely terrible.&lt;/p&gt;
 &lt;h2 id=&#34;why-do-they-suck&#34;&gt;Why do they suck?&lt;/h2&gt;
@@ -308,7 +308,7 @@
 &lt;p&gt;Additionally the rise of games as a service has effectively made every video game the same with some aesthetic differences. On top of that these service games are psychologically engineered to encourage you to spend as much time as possible playing their game over the competitor&amp;rsquo;s game as well as spending as much money as possible in their in-game store.&lt;/p&gt;
 &lt;p&gt;The &amp;ldquo;indie&amp;rdquo; title has become increasingly meaningless as industrial gaming corporations have co-opted it.&lt;/p&gt;
 &lt;p&gt;While there is clearly a desire for video games that are made &amp;ldquo;the old way&amp;rdquo;, games made this way are few and far between and as soon as a developer gets a reputation for making games like this they get acquired by a larger corporation and these types of video game disappear with that acquisition.&lt;/p&gt;
-&lt;p&gt;Industrialised video games are produced with the budget of hollywood movies, with checklists (the developers cannot diverge from) of what marketting execs think will sell the product and they would rather divert resources to fighting criticism than taking it on board. All of this results in video games being designed for an &amp;ldquo;average gamer&amp;rdquo; that doesn&amp;rsquo;t exist.&lt;/p&gt;
+&lt;p&gt;Industrialised video games are produced with the budget of hollywood movies, with checklists (the developers cannot diverge from) of what marketing execs think will sell the product and they would rather divert resources to fighting criticism than taking it on board. All of this results in video games being designed for an &amp;ldquo;average gamer&amp;rdquo; that doesn&amp;rsquo;t exist.&lt;/p&gt;
 &lt;p&gt;Additionally and most obviously, video games are no longer being developed by the same type of people. Designers, writes, artists, etc all have agenda&amp;rsquo;s and they intend to use their product to groom you to that agenda. You already knew this.&lt;/p&gt;
 &lt;h2 id=&#34;muh-nostalgia&#34;&gt;Muh nostalgia!&lt;/h2&gt;
 &lt;p&gt;Older games were designed differently, no one can dispute this. The way that they were designed respected the player&amp;rsquo;s intelligence and their time.&lt;/p&gt;

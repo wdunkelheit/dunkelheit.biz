@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cryptocurrency on Dunkelheit</title>
+    <link>https://dunkelheit.biz/tags/cryptocurrency.html</link>
+    <description>Recent content in cryptocurrency on Dunkelheit</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 30 Nov 2021 18:00:00 +0000</lastBuildDate><atom:link href="https://dunkelheit.biz/tags/cryptocurrency/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bitcoin and Monero Extremism</title>
+      <link>https://dunkelheit.biz/blog/bitcoin-monero-extremism.html</link>
+      <pubDate>Tue, 30 Nov 2021 18:00:00 +0000</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/bitcoin-monero-extremism.html</guid>
+      <description>I am a Bitcoin maximalist but I am also a Monero extremist. These positions aren&amp;rsquo;t mutually exclusive. In fact these two technologies combined solve the problems of the other.
+Digital Cash, Digital Gold It seems almost inevitable at this point that Bitcoin will overtake Gold as the strongest (in terms of market cap) store of wealth. Bitcoin is the new gold standard 😉 for storing wealth but it&amp;rsquo;s not very good at being money any more (just like gold).</description>
+    </item>
+    
+    <item>
+      <title>Generating QR Codes for Crypto</title>
+      <link>https://dunkelheit.biz/blog/generating-qr-codes-for-crypto.html</link>
+      <pubDate>Wed, 10 Nov 2021 14:00:00 +0000</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/generating-qr-codes-for-crypto.html</guid>
+      <description>If you run a blog or a website or have any kind of online presence then you should be accepting crypto donations.
+I will not explain why you should accept crypto here because this article exists. Please read it.
+Crypto Addresses You don&amp;rsquo;t need to use third party platforms to do this.
+All you need is your address and you are good to go. In this example I will be assuming that you have custody of your crypto wallet(s) and don&amp;rsquo;t use fiat-crypto™️ platforms.</description>
+    </item>
+    
+  </channel>
+</rss>

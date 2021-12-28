@@ -1,18 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog Posts: on Dunkelheit</title>
+    <title>Blog Feed and Archives on Dunkelheit</title>
     <link>https://dunkelheit.biz/blog.html</link>
-    <description>Recent content in Blog Posts: on Dunkelheit</description>
+    <description>Recent content in Blog Feed and Archives on Dunkelheit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 02 Oct 2021 10:00:00 +0100</lastBuildDate><atom:link href="https://dunkelheit.biz/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Nov 2021 18:00:00 +0000</lastBuildDate><atom:link href="https://dunkelheit.biz/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bitcoin and Monero Extremism</title>
+      <link>https://dunkelheit.biz/blog/bitcoin-monero-extremism.html</link>
+      <pubDate>Tue, 30 Nov 2021 18:00:00 +0000</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/bitcoin-monero-extremism.html</guid>
+      <description>I am a Bitcoin maximalist but I am also a Monero extremist. These positions aren&amp;rsquo;t mutually exclusive. In fact these two technologies combined solve the problems of the other.
+Digital Cash, Digital Gold It seems almost inevitable at this point that Bitcoin will overtake Gold as the strongest (in terms of market cap) store of wealth. Bitcoin is the new gold standard 😉 for storing wealth but it&amp;rsquo;s not very good at being money any more (just like gold).</description>
+    </item>
+    
+    <item>
+      <title>Generating QR Codes for Crypto</title>
+      <link>https://dunkelheit.biz/blog/generating-qr-codes-for-crypto.html</link>
+      <pubDate>Wed, 10 Nov 2021 14:00:00 +0000</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/generating-qr-codes-for-crypto.html</guid>
+      <description>If you run a blog or a website or have any kind of online presence then you should be accepting crypto donations.
+I will not explain why you should accept crypto here because this article exists. Please read it.
+Crypto Addresses You don&amp;rsquo;t need to use third party platforms to do this.
+All you need is your address and you are good to go. In this example I will be assuming that you have custody of your crypto wallet(s) and don&amp;rsquo;t use fiat-crypto™️ platforms.</description>
+    </item>
+    
     <item>
       <title>Site Update October 2021</title>
-      <link>https://dunkelheit.biz/blog/2021/site-update-october-2021.html</link>
+      <link>https://dunkelheit.biz/blog/site-update-october-2021.html</link>
       <pubDate>Sat, 02 Oct 2021 10:00:00 +0100</pubDate>
       
-      <guid>https://dunkelheit.biz/blog/2021/site-update-october-2021.html</guid>
+      <guid>https://dunkelheit.biz/blog/site-update-october-2021.html</guid>
       <description>Henlo frens, this is a quick update to let you know what has changed with the site recently and what I plan to do going forward.
 Recent Articles I have posted a few articles in the past week, I guess I was just in the mood for writing after almost a month of no updates.
 The articles:
@@ -21,10 +43,10 @@ The articles:
     
     <item>
       <title>Stop Bloating Your Shell</title>
-      <link>https://dunkelheit.biz/blog/2021/stop-bloating-your-shell.html</link>
+      <link>https://dunkelheit.biz/blog/stop-bloating-your-shell.html</link>
       <pubDate>Sat, 02 Oct 2021 09:00:00 +0100</pubDate>
       
-      <guid>https://dunkelheit.biz/blog/2021/stop-bloating-your-shell.html</guid>
+      <guid>https://dunkelheit.biz/blog/stop-bloating-your-shell.html</guid>
       <description>Probably my favourite part of using Linux is that I can customise my eperience.
 The customisation options for some of the fundamental tools I use are endless and they are customisable by design. I have probably spent more time customising, modifying and tweaking my shell configurations than any other piece of software on my system.
 For this article I will be using zsh as the example shell unless stated otherwise.</description>
@@ -32,30 +54,30 @@ For this article I will be using zsh as the example shell unless stated otherwis
     
     <item>
       <title>The Emacs Rabbit Hole</title>
-      <link>https://dunkelheit.biz/blog/2021/the-emacs-rabbit-hole.html</link>
+      <link>https://dunkelheit.biz/blog/the-emacs-rabbit-hole.html</link>
       <pubDate>Mon, 27 Sep 2021 13:00:00 +0100</pubDate>
       
-      <guid>https://dunkelheit.biz/blog/2021/the-emacs-rabbit-hole.html</guid>
+      <guid>https://dunkelheit.biz/blog/the-emacs-rabbit-hole.html</guid>
       <description>I have been using Emacs as my text editor for about a year now. I still have no idea what I am doing but at least I know why.
 Cosy and Powerful The Emacs client is very lightweight and it can be self-extended whilst running by using Elisp. I am not quite sure how it works as Elisp is too far down the rabbit hole and I haven&amp;rsquo;t been there yet.</description>
     </item>
     
     <item>
       <title>Modern Books Suck</title>
-      <link>https://dunkelheit.biz/blog/2021/modern-books-suck.html</link>
+      <link>https://dunkelheit.biz/blog/modern-books-suck.html</link>
       <pubDate>Fri, 24 Sep 2021 18:30:15 +0100</pubDate>
       
-      <guid>https://dunkelheit.biz/blog/2021/modern-books-suck.html</guid>
+      <guid>https://dunkelheit.biz/blog/modern-books-suck.html</guid>
       <description>The commodification of books and its consequences have been a disaster for the human race. There is no legitimate reason for the continued printing of the modern paperback to continue.
 An Abundance of Nothing. Let&amp;rsquo;s state the obvious first. You walk into your local (or high street) book shop and what do you see promoted the most? Erotic fiction, books about why you should hate yourself, books promoting diets that will kill you.</description>
     </item>
     
     <item>
       <title>I Dont Care If You Use Linux</title>
-      <link>https://dunkelheit.biz/blog/2021/i-dont-care-if-you-use-linux.html</link>
+      <link>https://dunkelheit.biz/blog/i-dont-care-if-you-use-linux.html</link>
       <pubDate>Sun, 29 Aug 2021 19:30:00 +0100</pubDate>
       
-      <guid>https://dunkelheit.biz/blog/2021/i-dont-care-if-you-use-linux.html</guid>
+      <guid>https://dunkelheit.biz/blog/i-dont-care-if-you-use-linux.html</guid>
       <description>You may have seen my previous post about Free (as in freedom) software and came to the conclusion that I want to &amp;ldquo;convert&amp;rdquo; normies to using Linux. This is not the case.
 I do not care if you use Linux or not, I do not care what distro you use either. Whatever works for you, works for you and that&amp;rsquo;s great.
 The reason I recommend that you use a Linux based OS is not that I personally gain from you doing so but that you will gain from it.</description>
@@ -63,10 +85,10 @@ The reason I recommend that you use a Linux based OS is not that I personally ga
     
     <item>
       <title>Rewriting Some Posts</title>
-      <link>https://dunkelheit.biz/blog/2021/rewriting-some-posts.html</link>
+      <link>https://dunkelheit.biz/blog/rewriting-some-posts.html</link>
       <pubDate>Wed, 25 Aug 2021 19:30:00 +0100</pubDate>
       
-      <guid>https://dunkelheit.biz/blog/2021/rewriting-some-posts.html</guid>
+      <guid>https://dunkelheit.biz/blog/rewriting-some-posts.html</guid>
       <description>I am rewriting some of the posts on the site to be less ranty and more consistent with one another. I kinda rushed some of them so they look daft. I will update this post when the changes have been made.
 Posts Updated:
  Free As In Freedom RSS Is Based Video Games Are Over What Does The Steam Deck Mean? - Removed due to being crap.  Here&amp;rsquo;s the summary of the Steam Deck post:</description>
@@ -74,10 +96,10 @@ Posts Updated:
     
     <item>
       <title>Email and XMPP Available</title>
-      <link>https://dunkelheit.biz/blog/2021/xmpp-available.html</link>
+      <link>https://dunkelheit.biz/blog/xmpp-available.html</link>
       <pubDate>Tue, 03 Aug 2021 09:00:00 +0100</pubDate>
       
-      <guid>https://dunkelheit.biz/blog/2021/xmpp-available.html</guid>
+      <guid>https://dunkelheit.biz/blog/xmpp-available.html</guid>
       <description>XMPP chatting is now available.
 You can contact me at w@dunkelheit.biz
 Registration is not available at this time. I would recommend that you host your own XMPP service anyway.
@@ -90,10 +112,10 @@ There will be no registration or email hosting for strangers.</description>
     
     <item>
       <title>Free As In Freedom</title>
-      <link>https://dunkelheit.biz/blog/2021/free-as-in-freedom.html</link>
+      <link>https://dunkelheit.biz/blog/free-as-in-freedom.html</link>
       <pubDate>Mon, 02 Aug 2021 09:00:00 +0000</pubDate>
       
-      <guid>https://dunkelheit.biz/blog/2021/free-as-in-freedom.html</guid>
+      <guid>https://dunkelheit.biz/blog/free-as-in-freedom.html</guid>
       <description>Libre, not gratis.
 I won&amp;rsquo;t go into the specifics of Free Software in this article, if you would like to know more check the references at the bottom of the page.
 Freedom is non-negotiable Your freedom as a user is the most important aspect of the software that you use.
@@ -102,10 +124,10 @@ A common phrase found online regarding services such as search engines and email
     
     <item>
       <title>RSS is Based!</title>
-      <link>https://dunkelheit.biz/blog/2021/rss-is-based.html</link>
+      <link>https://dunkelheit.biz/blog/rss-is-based.html</link>
       <pubDate>Sat, 24 Jul 2021 08:20:25 +0000</pubDate>
       
-      <guid>https://dunkelheit.biz/blog/2021/rss-is-based.html</guid>
+      <guid>https://dunkelheit.biz/blog/rss-is-based.html</guid>
       <description>I recently started using Newsboat for RSS.
 Getting a proper RSS setup has been on my &amp;ldquo;cosy setup&amp;rdquo; checklist for a while. It didn&amp;rsquo;t take much time at all to get it working either.
 I previously just used browser plug-ins for this however this approach is terrible in practice.
@@ -114,29 +136,29 @@ Now that I have a proper setup using Newsboat I can truly appreciate RSS feeds a
     
     <item>
       <title>Switching to Markdown Format</title>
-      <link>https://dunkelheit.biz/blog/2021/switching-to-markdown-format.html</link>
+      <link>https://dunkelheit.biz/blog/switching-to-markdown-format.html</link>
       <pubDate>Fri, 16 Jul 2021 07:00:00 +0000</pubDate>
       
-      <guid>https://dunkelheit.biz/blog/2021/switching-to-markdown-format.html</guid>
+      <guid>https://dunkelheit.biz/blog/switching-to-markdown-format.html</guid>
       <description>I am starting to get comfortable with hugo as a static site generator, I know I haven&amp;rsquo;t made my theme the &amp;ldquo;correct way&amp;rdquo; but for now it works to an acceptable minimum and most importantly the pages it produces are formatted perfectly.
 I had an issue in that I couldn&amp;rsquo;t decide if I wanted to use Markdown or HTML when writing blog posts. The issue may seem silly (it is) but my reasons for having it were pretty straight forward:</description>
     </item>
     
     <item>
       <title>Learning German</title>
-      <link>https://dunkelheit.biz/blog/2021/learning-german.html</link>
+      <link>https://dunkelheit.biz/blog/learning-german.html</link>
       <pubDate>Sun, 11 Jul 2021 07:00:00 +0000</pubDate>
       
-      <guid>https://dunkelheit.biz/blog/2021/learning-german.html</guid>
+      <guid>https://dunkelheit.biz/blog/learning-german.html</guid>
       <description>I have decided to learn German. I have always had an interest in learning another language but due to the terrible methodology used by the education system and cringe meme apps like DuoLingo I was never motivated enough to stick them out. However I recently came to discover the Michel Thomas method after reading these articles by Luke Smith: Notes on Learning Languages and Learning European Languages (Michel Thomas). I won&amp;rsquo;t bother to summarize them here but you should definitely read them if you are interested in learning a language.</description>
     </item>
     
     <item>
       <title>Video Games Are Over</title>
-      <link>https://dunkelheit.biz/blog/2021/video-games-are-over.html</link>
+      <link>https://dunkelheit.biz/blog/video-games-are-over.html</link>
       <pubDate>Sat, 10 Jul 2021 07:00:00 +0000</pubDate>
       
-      <guid>https://dunkelheit.biz/blog/2021/video-games-are-over.html</guid>
+      <guid>https://dunkelheit.biz/blog/video-games-are-over.html</guid>
       <description>Modern video games are an industrialised product that satisfies checklists at the cost of a unique identity and product. They are deceptively marketed and maliciously monetized.
 Occasionally a video game will come out that is just trying to be a fun video game. These are few and far between.
 This is not a nostalgia post, modern video games are genuinely terrible.

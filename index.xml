@@ -6,13 +6,81 @@
     <description>Recent content on Dunkelheit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 02 Oct 2021 10:00:00 +0100</lastBuildDate><atom:link href="https://dunkelheit.biz/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Nov 2021 18:00:00 +0000</lastBuildDate><atom:link href="https://dunkelheit.biz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bitcoin and Monero Extremism</title>
+      <link>https://dunkelheit.biz/blog/bitcoin-monero-extremism.html</link>
+      <pubDate>Tue, 30 Nov 2021 18:00:00 +0000</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/bitcoin-monero-extremism.html</guid>
+      <description>&lt;img class=&#34;postmeme&#34; style=&#34;max-height: 240px;&#34; src=&#34;pix/monero-pilled.webp&#34; alt=&#34;Monero Pilled&#34; title=&#34;Monero Pilled&#34;&gt;
+&lt;p&gt;I am a Bitcoin maximalist but I am also a Monero extremist. These positions aren&amp;rsquo;t mutually exclusive. In fact these two technologies combined solve the problems of the other.&lt;/p&gt;
+&lt;h3 id=&#34;digital-cash-digital-gold&#34;&gt;Digital Cash, Digital Gold&lt;/h3&gt;
+&lt;p&gt;It seems almost inevitable at this point that Bitcoin will overtake Gold as the strongest (in terms of market cap) store of wealth. Bitcoin is the new gold standard 😉 for storing wealth but it&amp;rsquo;s not very good at being money any more (just like gold). Due to high transaction fees and currency speculation it is better to not use your Bitcoin and to just HODL.&lt;/p&gt;
+&lt;p&gt;Although there are emergent technologies trying to solve this problem like the lightning network there are some issues regarding anonymity and privacy that makes traditional cash superior for transacting.&lt;/p&gt;
+&lt;p&gt;This is where Monero comes in. Being the only cryptocurrency that allows for transactions to be both anonymous and private, Monero functions almost exactly like physical cash does, except digitally and without out of control money printing.&lt;/p&gt;
+&lt;p&gt;Monero can be swapped for Bitcoin using decentralised platforms too meaning you do not require the traditional finance system to acquire it. There is also the experimental technology of atomic swaps that allows from private chain-to-chain transactions to swap one crypto for another.&lt;/p&gt;
+&lt;p&gt;For these reasons Bitcoin and Monero are the only cryptocurrencies that have legitimate use cases as currency.&lt;/p&gt;
+&lt;h3 id=&#34;utility-tokens&#34;&gt;Utility Tokens&lt;/h3&gt;
+&lt;p&gt;There are some other cryptocurrencies that aren&amp;rsquo;t shitcoins but these are mostly utility tokens such as the Brave foundation&amp;rsquo;s BAT (Basic Attention Token) and Namecoin. But as utility tokens these function as a means to an end and not as a form of savings or money.&lt;/p&gt;
+&lt;h3 id=&#34;proof-of-stake---proof-of-shitcoin&#34;&gt;Proof of stake - Proof of shitcoin&lt;/h3&gt;
+&lt;p&gt;Any cryptocurrency that uses a proof of stake model is a shitcoin. The model is unworkable on its own and the people in charge of these shitcoin projects know this. Which is why they will either never actually implement proof of stake or if they do it will be some kind of utility contract on top of proof of work.&lt;/p&gt;
+&lt;p&gt;Every DEFI project that is trying to be or surpass Bitcoin is a shitcoin. By trying to be Bitcoin they are proving that they cannot improve upon it. By trying to do more than Bitcoin they are creating a monolith with complexity issues that will drag it down. See Ethereum gas prices for an example of this.&lt;/p&gt;
+&lt;h3 id=&#34;nfts&#34;&gt;NFTs&lt;/h3&gt;
+&lt;p&gt;Shitcoins taken to their logical conclusion. Lol&lt;/p&gt;
+&lt;h3 id=&#34;muh-power-usage&#34;&gt;Muh power usage&lt;/h3&gt;
+&lt;p&gt;Like most energy alarmism this is a non-issue. If you understand how electric power is generated and how much of it goes to waste due to fluctuations in demand then you will see that Bitcoin actually incentivises energy innovation and prevents waste.&lt;/p&gt;
+&lt;p&gt;In fact this is demonstrated in real life Bitcoin mining practices. Countries with cheap electricity get more Bitcoin mining operations in them which brings more money into the local economy as well as incentivising said means of creating energy. El Salvador plans to mine Bitcoin using geothermal for example.&lt;/p&gt;
+&lt;p&gt;A great way to explain how Bitcoin mining reduces waste is that miners seeking the highest return on their investment will go where the energy is cheapest and most abundant, leaving the places were it is more costly and limited. This effectively allows for excess energy production in one part of the world to be utilised elsewhere by proxy.&lt;/p&gt;
+&lt;h3 id=&#34;getting-friends-into-crypto&#34;&gt;Getting friends into crypto&lt;/h3&gt;
+&lt;p&gt;I recommend Bitcoin to people looking for a way to store their money and protect it from inflation, I also recommend it as its price goes up nicely year on year (mostly).&lt;/p&gt;
+&lt;p&gt;Monero is harder to recommend to people as most people that get into crypto just want gains and don&amp;rsquo;t see the point in using it as money when they can use money. I understand this position and why it is held, which is why I generally only recommend Monero to people that are already internet present.&lt;/p&gt;
+&lt;p&gt;That is not to say however that I won&amp;rsquo;t recommend it to people anyway, just that if they have no real use for it then they will be better off just buying some sats instead.&lt;/p&gt;
+&lt;p&gt;In fact one thing that Monero is excellent for is teaching someone the basics of how cryptocurrencies work with real life examples but without breaking the bank. It is also good at giving people an idea of how other cryptocurrencies aren&amp;rsquo;t private or anonymous.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Generating QR Codes for Crypto</title>
+      <link>https://dunkelheit.biz/blog/generating-qr-codes-for-crypto.html</link>
+      <pubDate>Wed, 10 Nov 2021 14:00:00 +0000</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/generating-qr-codes-for-crypto.html</guid>
+      <description>&lt;p&gt;If you run a blog or a website or have any kind of online presence then you should be accepting crypto donations.&lt;/p&gt;
+&lt;p&gt;I will not explain why you should accept crypto here because &lt;a href=&#34;https://landchad.net/crypto&#34;&gt;this article&lt;/a&gt; exists. Please read it.&lt;/p&gt;
+&lt;h3 id=&#34;crypto-addresses&#34;&gt;Crypto Addresses&lt;/h3&gt;
+&lt;p&gt;You don&amp;rsquo;t need to use third party platforms to do this.&lt;/p&gt;
+&lt;p&gt;All you need is your address and you are good to go. In this example I will be assuming that you have custody of your crypto wallet(s) and don&amp;rsquo;t use fiat-crypto™️ platforms.&lt;/p&gt;
+&lt;p&gt;For this example I will be using a Monero address but the same method will work for all cryptocurrencies that use a single-string address. Which &lt;a href=&#34;#tips&#34;&gt;all two&lt;/a&gt; of the important ones do.&lt;/p&gt;
+&lt;h3 id=&#34;requirements&#34;&gt;Requirements&lt;/h3&gt;
+&lt;p&gt;First of all you are going to want to know your Crypto receive address.&lt;/p&gt;
+&lt;p&gt;It should look like this for Monero: &lt;code&gt;87ukrCxsbK79rQbGwutzTmE4RDPiayn3xK5JT63iiSks5Q9TMCsXzUibXEea1q6x6ij6u2UDxzXpNBU5bP4u8Wz34esoLRG&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Secondly you are going to want to install the &lt;code&gt;python-qrcode&lt;/code&gt; package. It is available under this name on Arch and Debian based distros. It can also be &lt;a href=&#34;https://pypi.org/project/qrcode/&#34;&gt;found here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Now that you have these two tools you are ready to go.&lt;/p&gt;
+&lt;h3 id=&#34;generating-the-qr-code&#34;&gt;Generating the QR code.&lt;/h3&gt;
+&lt;p&gt;Input the following into your terminal:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;qr &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;lt;your crypto address&amp;gt;&amp;#34;&lt;/span&gt; &amp;gt; xmr.png
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Replacing &lt;code&gt;&amp;lt;your crypto address&amp;gt;&lt;/code&gt; with your actual address.&lt;/p&gt;
+&lt;p&gt;For me this would look like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;qr &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;87ukrCxsbK79rQbGwutzTmE4RDPiayn3xK5JT63iiSks5Q9TMCsXzUibXEea1q6x6ij6u2UDxzXpNBU5bP4u8Wz34esoLRG&amp;#34;&lt;/span&gt; &amp;gt; xmr.png
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You will now have a png image file in your current directory. You can now use this on your website.&lt;/p&gt;
+&lt;p&gt;For an example of it in use see &lt;a href=&#34;https://dunkelheit.biz/donate.html&#34;&gt;this page&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;why-use-this-program&#34;&gt;Why Use This Program?&lt;/h3&gt;
+&lt;p&gt;You may be considering using an online QR code generator. But any code running on someone else&amp;rsquo;s hardware cannot be trusted with something as sensitive as this.&lt;/p&gt;
+&lt;p&gt;If you are an advanced user you can use this tool with optimisation options or you can output your QR code to an SVG instead. You can use this in combination with other QR code optimisation tools to minimize the file size if that is a concern.&lt;/p&gt;
+&lt;h3 id=&#34;tips&#34;&gt;Tips&lt;/h3&gt;
+&lt;p&gt;Only two cryptocurrencies actually matter these are Bitcoin and Monero. All other cryptos are gambling or memes (or a dangerous combination of both). &lt;strong&gt;Not financial advice.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;You should always give the user the option to donate with the address itself too. In fact its a good idea to provide the address with the QR code so that they can verify the QR resolution.&lt;/p&gt;
+&lt;p&gt;It may be a good idea to create a minimalist solution to allow the user to expand the page with the given QR codes if you plan to include them on other pages on your site. This is only relevant if your site doesn&amp;rsquo;t accommodate for this in its design anyway.&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>Site Update October 2021</title>
-      <link>https://dunkelheit.biz/blog/2021/site-update-october-2021.html</link>
+      <link>https://dunkelheit.biz/blog/site-update-october-2021.html</link>
       <pubDate>Sat, 02 Oct 2021 10:00:00 +0100</pubDate>
       
-      <guid>https://dunkelheit.biz/blog/2021/site-update-october-2021.html</guid>
+      <guid>https://dunkelheit.biz/blog/site-update-october-2021.html</guid>
       <description>&lt;p&gt;Henlo frens, this is a quick update to let you know what has changed with the site recently and what I plan to do going forward.&lt;/p&gt;
 &lt;h3 id=&#34;recent-articles&#34;&gt;Recent Articles&lt;/h3&gt;
 &lt;p&gt;I have posted a few articles in the past week, I guess I was just in the mood for writing after almost a month of no updates.&lt;/p&gt;
@@ -41,10 +109,10 @@
     
     <item>
       <title>Stop Bloating Your Shell</title>
-      <link>https://dunkelheit.biz/blog/2021/stop-bloating-your-shell.html</link>
+      <link>https://dunkelheit.biz/blog/stop-bloating-your-shell.html</link>
       <pubDate>Sat, 02 Oct 2021 09:00:00 +0100</pubDate>
       
-      <guid>https://dunkelheit.biz/blog/2021/stop-bloating-your-shell.html</guid>
+      <guid>https://dunkelheit.biz/blog/stop-bloating-your-shell.html</guid>
       <description>&lt;p&gt;Probably my favourite part of using Linux is that I can customise my eperience.&lt;/p&gt;
 &lt;p&gt;The customisation options for some of the fundamental tools I use are endless and they are customisable by design. I have probably spent more time customising, modifying and tweaking my shell configurations than any other piece of software on my system.&lt;/p&gt;
 &lt;p&gt;For this article I will be using &lt;code&gt;zsh&lt;/code&gt; as the example shell unless stated otherwise.&lt;/p&gt;
@@ -86,10 +154,10 @@ export PATH&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span styl
     
     <item>
       <title>The Emacs Rabbit Hole</title>
-      <link>https://dunkelheit.biz/blog/2021/the-emacs-rabbit-hole.html</link>
+      <link>https://dunkelheit.biz/blog/the-emacs-rabbit-hole.html</link>
       <pubDate>Mon, 27 Sep 2021 13:00:00 +0100</pubDate>
       
-      <guid>https://dunkelheit.biz/blog/2021/the-emacs-rabbit-hole.html</guid>
+      <guid>https://dunkelheit.biz/blog/the-emacs-rabbit-hole.html</guid>
       <description>&lt;p&gt;I have been using Emacs as my text editor for about a year now. I still have no idea what I am doing but at least I know why.&lt;/p&gt;
 &lt;h3 id=&#34;cosy-and-powerful&#34;&gt;Cosy and Powerful&lt;/h3&gt;
 &lt;p&gt;The Emacs client is very lightweight and it can be self-extended whilst running by using Elisp. I am not quite sure how it works as Elisp is too far down the rabbit hole and I haven&amp;rsquo;t been there yet.&lt;/p&gt;
@@ -113,10 +181,10 @@ export PATH&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span styl
     
     <item>
       <title>Modern Books Suck</title>
-      <link>https://dunkelheit.biz/blog/2021/modern-books-suck.html</link>
+      <link>https://dunkelheit.biz/blog/modern-books-suck.html</link>
       <pubDate>Fri, 24 Sep 2021 18:30:15 +0100</pubDate>
       
-      <guid>https://dunkelheit.biz/blog/2021/modern-books-suck.html</guid>
+      <guid>https://dunkelheit.biz/blog/modern-books-suck.html</guid>
       <description>&lt;p&gt;The commodification of books and its consequences have been a disaster for the human race. There is no legitimate reason for the continued printing of the modern paperback to continue.&lt;/p&gt;
 &lt;h3 id=&#34;an-abundance-of-nothing&#34;&gt;An Abundance of Nothing.&lt;/h3&gt;
 &lt;p&gt;Let&amp;rsquo;s state the obvious first. You walk into your local (or high street) book shop and what do you see promoted the most? Erotic fiction, books about why you should hate yourself, books promoting diets that will kill you.&lt;/p&gt;
@@ -141,10 +209,10 @@ export PATH&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span styl
     
     <item>
       <title>I Dont Care If You Use Linux</title>
-      <link>https://dunkelheit.biz/blog/2021/i-dont-care-if-you-use-linux.html</link>
+      <link>https://dunkelheit.biz/blog/i-dont-care-if-you-use-linux.html</link>
       <pubDate>Sun, 29 Aug 2021 19:30:00 +0100</pubDate>
       
-      <guid>https://dunkelheit.biz/blog/2021/i-dont-care-if-you-use-linux.html</guid>
+      <guid>https://dunkelheit.biz/blog/i-dont-care-if-you-use-linux.html</guid>
       <description>&lt;p&gt;You may have seen my previous post about Free (as in freedom) software and came to the conclusion that I want to &amp;ldquo;convert&amp;rdquo; normies to using Linux. This is not the case.&lt;/p&gt;
 &lt;p&gt;I do not care if you use Linux or not, I do not care what distro you use either. Whatever works for you, works for you and that&amp;rsquo;s great.&lt;/p&gt;
 &lt;p&gt;The reason I recommend that you use a Linux based OS is not that I personally gain from you doing so but that you will gain from it. I have no attachment to what you use or how you use it. Linux fanboyism is a ridiculous concept.&lt;/p&gt;
@@ -178,10 +246,10 @@ export PATH&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span styl
     
     <item>
       <title>Rewriting Some Posts</title>
-      <link>https://dunkelheit.biz/blog/2021/rewriting-some-posts.html</link>
+      <link>https://dunkelheit.biz/blog/rewriting-some-posts.html</link>
       <pubDate>Wed, 25 Aug 2021 19:30:00 +0100</pubDate>
       
-      <guid>https://dunkelheit.biz/blog/2021/rewriting-some-posts.html</guid>
+      <guid>https://dunkelheit.biz/blog/rewriting-some-posts.html</guid>
       <description>&lt;p&gt;I am rewriting some of the posts on the site to be less ranty and more consistent with one another. I kinda rushed some of them so they look daft. I will update this post when the changes have been made.&lt;/p&gt;
 &lt;p&gt;Posts Updated:&lt;/p&gt;
 &lt;ul&gt;
@@ -199,10 +267,10 @@ export PATH&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span styl
     
     <item>
       <title>Email and XMPP Available</title>
-      <link>https://dunkelheit.biz/blog/2021/xmpp-available.html</link>
+      <link>https://dunkelheit.biz/blog/xmpp-available.html</link>
       <pubDate>Tue, 03 Aug 2021 09:00:00 +0100</pubDate>
       
-      <guid>https://dunkelheit.biz/blog/2021/xmpp-available.html</guid>
+      <guid>https://dunkelheit.biz/blog/xmpp-available.html</guid>
       <description>&lt;p&gt;XMPP chatting is now available.&lt;/p&gt;
 &lt;p&gt;You can contact me at &lt;a href=&#34;xmpp:w@dunkelheit.biz&#34;&gt;&lt;code&gt;w@dunkelheit.biz&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Registration is not available at this time. I would recommend that you host your own XMPP service anyway.&lt;/p&gt;
@@ -223,10 +291,10 @@ export PATH&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span styl
     
     <item>
       <title>Free As In Freedom</title>
-      <link>https://dunkelheit.biz/blog/2021/free-as-in-freedom.html</link>
+      <link>https://dunkelheit.biz/blog/free-as-in-freedom.html</link>
       <pubDate>Mon, 02 Aug 2021 09:00:00 +0000</pubDate>
       
-      <guid>https://dunkelheit.biz/blog/2021/free-as-in-freedom.html</guid>
+      <guid>https://dunkelheit.biz/blog/free-as-in-freedom.html</guid>
       <description>&lt;p&gt;Libre, not gratis.&lt;/p&gt;
 &lt;p&gt;I won&amp;rsquo;t go into the specifics of Free Software in this article, if you would like to know more check the &lt;a href=&#34;#references&#34;&gt;references&lt;/a&gt; at the bottom of the page.&lt;/p&gt;
 &lt;h2 id=&#34;freedom-is-non-negotiable&#34;&gt;Freedom is non-negotiable&lt;/h2&gt;
@@ -271,10 +339,10 @@ export PATH&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span styl
     
     <item>
       <title>RSS is Based!</title>
-      <link>https://dunkelheit.biz/blog/2021/rss-is-based.html</link>
+      <link>https://dunkelheit.biz/blog/rss-is-based.html</link>
       <pubDate>Sat, 24 Jul 2021 08:20:25 +0000</pubDate>
       
-      <guid>https://dunkelheit.biz/blog/2021/rss-is-based.html</guid>
+      <guid>https://dunkelheit.biz/blog/rss-is-based.html</guid>
       <description>&lt;p&gt;I recently started using Newsboat for RSS.&lt;/p&gt;
 &lt;p&gt;Getting a proper RSS setup has been on my &amp;ldquo;cosy setup&amp;rdquo; checklist for a while. It didn&amp;rsquo;t take much time at all to get it working either.&lt;/p&gt;
 &lt;p&gt;I previously just used browser plug-ins for this however this approach is terrible in practice.&lt;/p&gt;
@@ -313,10 +381,10 @@ export PATH&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span styl
     
     <item>
       <title>Switching to Markdown Format</title>
-      <link>https://dunkelheit.biz/blog/2021/switching-to-markdown-format.html</link>
+      <link>https://dunkelheit.biz/blog/switching-to-markdown-format.html</link>
       <pubDate>Fri, 16 Jul 2021 07:00:00 +0000</pubDate>
       
-      <guid>https://dunkelheit.biz/blog/2021/switching-to-markdown-format.html</guid>
+      <guid>https://dunkelheit.biz/blog/switching-to-markdown-format.html</guid>
       <description>&lt;p&gt;I am starting to get comfortable with &lt;code&gt;hugo&lt;/code&gt; as a static site generator, I know I haven&amp;rsquo;t made my theme the &amp;ldquo;correct way&amp;rdquo; but for now it works to an acceptable minimum and most importantly the pages it produces are formatted perfectly.&lt;/p&gt;
 &lt;p&gt;I had an issue in that I couldn&amp;rsquo;t decide if I wanted to use Markdown or HTML when writing blog posts. The issue may seem silly (it is) but my reasons for having it were pretty straight forward:&lt;/p&gt;
 &lt;ul&gt;
@@ -357,26 +425,26 @@ export PATH&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span styl
     
     <item>
       <title>Learning German</title>
-      <link>https://dunkelheit.biz/blog/2021/learning-german.html</link>
+      <link>https://dunkelheit.biz/blog/learning-german.html</link>
       <pubDate>Sun, 11 Jul 2021 07:00:00 +0000</pubDate>
       
-      <guid>https://dunkelheit.biz/blog/2021/learning-german.html</guid>
+      <guid>https://dunkelheit.biz/blog/learning-german.html</guid>
       <description>&lt;p&gt;I have decided to learn German. I have always had an interest in learning another language but due to the terrible methodology used by the education system and cringe meme apps like DuoLingo I was never motivated enough to stick them out. However I recently came to discover the Michel Thomas method after reading these articles by Luke Smith: &lt;a href=&#34;https://lukesmith.xyz/articles/notes-on-learning-languages&#34;&gt;Notes on Learning Languages&lt;/a&gt; and &lt;a href=&#34;https://lukesmith.xyz/articles/learning-european-languages-michel-thomas&#34;&gt;Learning European Languages (Michel Thomas)&lt;/a&gt;. I won&amp;rsquo;t bother to summarize them here but you should definitely read them if you are interested in learning a language.&lt;/p&gt;
 &lt;p&gt;After reading these articles I was convinced to give the method a try. I will update this post every so often with my thoughts on the method so far.&lt;/p&gt;
 &lt;h2 id=&#34;so-why-german&#34;&gt;So why German?&lt;/h2&gt;
 &lt;p&gt;It&amp;rsquo;s probably the most relevant language for me to learn based on its similarities to English, my musical interests and the location of a lot of my friends. I would love to be able to travel there without being a &amp;ldquo;that guy&amp;rdquo; tourist that just speaks in English the whole time.&lt;/p&gt;
 &lt;p&gt;Additionally I believe that learning German will give me reason to explore other related languages. I have always found languages interesting, who knows maybe one day I will be able to speak to people on every continent? I&amp;rsquo;d also like to put the theory that thinking in multiple languages can give you a better understanding of concepts to the test.&lt;/p&gt;
 &lt;h3 id=&#34;update&#34;&gt;Update:&lt;/h3&gt;
-&lt;p&gt;So far I am enjoying the format of the tapes but due to factors outside of my control I am unable to get very far with them at this current time. I hope to resolve this issue ASAP.&lt;/p&gt;
+&lt;p&gt;I found the tape format to be the best method of learning German that I have tried so far however with no native German speakers around me to put my practice to the test I am kinda stuck for the moment.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Video Games Are Over</title>
-      <link>https://dunkelheit.biz/blog/2021/video-games-are-over.html</link>
+      <link>https://dunkelheit.biz/blog/video-games-are-over.html</link>
       <pubDate>Sat, 10 Jul 2021 07:00:00 +0000</pubDate>
       
-      <guid>https://dunkelheit.biz/blog/2021/video-games-are-over.html</guid>
+      <guid>https://dunkelheit.biz/blog/video-games-are-over.html</guid>
       <description>&lt;p&gt;Modern video games are an industrialised product that satisfies checklists at the cost of a unique identity and product. They are deceptively marketed and maliciously monetized.&lt;/p&gt;
 &lt;p&gt;Occasionally a video game will come out that is just trying to be a fun video game. These are few and far between.&lt;/p&gt;
 &lt;p&gt;This is not a nostalgia post, modern video games are genuinely terrible.&lt;/p&gt;

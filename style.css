@@ -2,11 +2,16 @@
 html {
 	color: #d8dee9;
 	font-family: sans-serif;
+	height: 100%;
+	background-color: black;
 }
 
 body {
 	background: #222222;
 /*	background: linear-gradient(#222222,black) no-repeat fixed; */
+	min-height: 100%;
+	border-style: dotted;
+	border-color: #555555;
 }
 
 main {
@@ -48,6 +53,8 @@ img {
 
 header h1 {
 	text-align: center;
+    margin: 0;
+    padding: 0.6em;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -134,6 +141,10 @@ footer {
 	font-size: large; 
 }
 
+.footer-text {
+	margin: 14px 20px;
+}
+
 nav ul, footer ul, .tag-list {
 	padding: 0;
 }
@@ -145,6 +156,11 @@ nav li, footer li, .tag-list li{
 	border-radius: 10px;
 	padding: .5em;
 	max-width: 7em;
+}
+.tag-cloud {
+	border-style: outset;
+    border-color: white;
+    border-radius: 30px;
 }
 
 .tag-list {
@@ -168,6 +184,7 @@ nav li:hover, footer li:hover, .tag-list li:hover {
 	clear: both;
 	max-height: 150px;
 	margin: auto;
+	margin-top: 0.6em;
 }
 
 .memeright {
@@ -259,7 +276,7 @@ nav li:hover, footer li:hover, .tag-list li:hover {
 }
 
 .coininfo {
-	max-width: 300px;
+	max-width: 280px;
 	text-align: center;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -283,20 +300,14 @@ nav li:hover, footer li:hover, .tag-list li:hover {
 /* Tag Symbols */
 *[id^='list-tag-']:BEFORE { content: "❓ "; }
 #list-tag-books:BEFORE { content: "📚 "; }
+#list-tag-clothes:BEFORE { content: "🥾 "; }
 #list-tag-cryptocurrency:BEFORE { content: "💸 "; }
 #list-tag-food:BEFORE { content: "🥩 "; }
 #list-tag-language:BEFORE { content: "🔠 "; }
 #list-tag-linux:BEFORE { content: "🐧 "; }
+#list-tag-programming:BEFORE { content: "💻 "; }
 #list-tag-philosophy:BEFORE { content: "🤔 "; }
 #list-tag-software:BEFORE { content: "💾 "; }
 #list-tag-technology:BEFORE { content: "🏭 "; }
 #list-tag-updates:BEFORE { content: "🔄 "; }
 #list-tag-video-games:BEFORE { content: "🎮 "; }
-
-#halloween {
-    background-image: url(/pix/apuween.webp);
-    background-repeat: repeat;
-    background-size: 30px;
-    height: 24px;
-}
-

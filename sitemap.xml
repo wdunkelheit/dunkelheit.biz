@@ -2,88 +2,88 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://dunkelheit.biz/blog/bitcoin-monero-extremism.html</loc>
-    <lastmod>2021-11-30T18:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dunkelheit.biz/blog.html</loc>
-    <lastmod>2021-11-30T18:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dunkelheit.biz/tags/cryptocurrency.html</loc>
-    <lastmod>2021-11-30T18:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://dunkelheit.biz/</loc>
+    <lastmod>2022-01-05T09:39:42+00:00</lastmod>
+  </url><url>
+    <loc>https://dunkelheit.biz/2021/</loc>
     <lastmod>2021-11-30T18:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dunkelheit.biz/tags.html</loc>
+    <loc>https://dunkelheit.biz/blog/bitcoin-monero-extremism/</loc>
     <lastmod>2021-11-30T18:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dunkelheit.biz/tags/technology.html</loc>
+    <loc>https://dunkelheit.biz/blog/</loc>
     <lastmod>2021-11-30T18:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dunkelheit.biz/blog/generating-qr-codes-for-crypto.html</loc>
+    <loc>https://dunkelheit.biz/tags/cryptocurrency/</loc>
+    <lastmod>2021-11-30T18:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dunkelheit.biz/tags/</loc>
+    <lastmod>2021-11-30T18:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dunkelheit.biz/tags/technology/</loc>
+    <lastmod>2021-11-30T18:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dunkelheit.biz/blog/generating-qr-codes-for-crypto/</loc>
     <lastmod>2021-11-10T14:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dunkelheit.biz/tags/software.html</loc>
+    <loc>https://dunkelheit.biz/tags/software/</loc>
     <lastmod>2021-11-10T14:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dunkelheit.biz/blog/site-update-october-2021.html</loc>
+    <loc>https://dunkelheit.biz/blog/site-update-october-2021/</loc>
     <lastmod>2021-10-02T10:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dunkelheit.biz/tags/updates.html</loc>
+    <loc>https://dunkelheit.biz/tags/updates/</loc>
     <lastmod>2021-10-02T10:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dunkelheit.biz/tags/linux.html</loc>
+    <loc>https://dunkelheit.biz/tags/linux/</loc>
     <lastmod>2021-10-02T09:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dunkelheit.biz/blog/stop-bloating-your-shell.html</loc>
+    <loc>https://dunkelheit.biz/blog/stop-bloating-your-shell/</loc>
     <lastmod>2021-10-02T09:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dunkelheit.biz/blog/the-emacs-rabbit-hole.html</loc>
+    <loc>https://dunkelheit.biz/blog/the-emacs-rabbit-hole/</loc>
     <lastmod>2021-09-27T13:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dunkelheit.biz/tags/books.html</loc>
+    <loc>https://dunkelheit.biz/tags/books/</loc>
     <lastmod>2021-09-24T18:30:15+01:00</lastmod>
   </url><url>
-    <loc>https://dunkelheit.biz/blog/modern-books-suck.html</loc>
+    <loc>https://dunkelheit.biz/blog/modern-books-suck/</loc>
     <lastmod>2021-09-24T18:30:15+01:00</lastmod>
   </url><url>
-    <loc>https://dunkelheit.biz/blog/i-dont-care-if-you-use-linux.html</loc>
+    <loc>https://dunkelheit.biz/blog/i-dont-care-if-you-use-linux/</loc>
     <lastmod>2021-08-29T19:30:00+01:00</lastmod>
   </url><url>
-    <loc>https://dunkelheit.biz/tags/philosophy.html</loc>
+    <loc>https://dunkelheit.biz/tags/philosophy/</loc>
     <lastmod>2021-08-29T19:30:00+01:00</lastmod>
   </url><url>
-    <loc>https://dunkelheit.biz/blog/rewriting-some-posts.html</loc>
-    <lastmod>2021-08-25T19:30:00+01:00</lastmod>
-  </url><url>
-    <loc>https://dunkelheit.biz/blog/xmpp-available.html</loc>
+    <loc>https://dunkelheit.biz/blog/xmpp-available/</loc>
     <lastmod>2021-08-07T07:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dunkelheit.biz/blog/free-as-in-freedom.html</loc>
+    <loc>https://dunkelheit.biz/blog/free-as-in-freedom/</loc>
     <lastmod>2021-08-02T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dunkelheit.biz/blog/rss-is-based.html</loc>
+    <loc>https://dunkelheit.biz/blog/rss-is-based/</loc>
     <lastmod>2021-07-24T08:20:25+00:00</lastmod>
   </url><url>
-    <loc>https://dunkelheit.biz/blog/switching-to-markdown-format.html</loc>
+    <loc>https://dunkelheit.biz/blog/switching-to-markdown-format/</loc>
     <lastmod>2021-07-16T07:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dunkelheit.biz/tags/language.html</loc>
+    <loc>https://dunkelheit.biz/tags/language/</loc>
     <lastmod>2021-08-25T21:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dunkelheit.biz/blog/learning-german.html</loc>
+    <loc>https://dunkelheit.biz/blog/learning-german/</loc>
     <lastmod>2021-08-25T21:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dunkelheit.biz/tags/video-games.html</loc>
+    <loc>https://dunkelheit.biz/tags/video-games/</loc>
     <lastmod>2021-07-10T07:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dunkelheit.biz/blog/video-games-are-over.html</loc>
+    <loc>https://dunkelheit.biz/blog/video-games-are-over/</loc>
     <lastmod>2021-07-10T07:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dunkelheit.biz/about.html</loc>
+    <loc>https://dunkelheit.biz/about/</loc>
   </url><url>
-    <loc>https://dunkelheit.biz/contact.html</loc>
+    <loc>https://dunkelheit.biz/contact/</loc>
   </url><url>
-    <loc>https://dunkelheit.biz/donate.html</loc>
+    <loc>https://dunkelheit.biz/donate/</loc>
   </url>
 </urlset>

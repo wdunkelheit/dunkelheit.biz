@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>linux on Dunkelheit</title>
-    <link>https://dunkelheit.biz/tags/linux.html</link>
+    <link>https://dunkelheit.biz/tags/linux/</link>
     <description>Recent content in linux on Dunkelheit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Sat, 02 Oct 2021 09:00:00 +0100</lastBuildDate><atom:link href="https://dunkelheit.biz/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Stop Bloating Your Shell</title>
-      <link>https://dunkelheit.biz/blog/stop-bloating-your-shell.html</link>
+      <link>https://dunkelheit.biz/blog/stop-bloating-your-shell/</link>
       <pubDate>Sat, 02 Oct 2021 09:00:00 +0100</pubDate>
       
-      <guid>https://dunkelheit.biz/blog/stop-bloating-your-shell.html</guid>
+      <guid>https://dunkelheit.biz/blog/stop-bloating-your-shell/</guid>
       <description>Probably my favourite part of using Linux is that I can customise my eperience.
 The customisation options for some of the fundamental tools I use are endless and they are customisable by design. I have probably spent more time customising, modifying and tweaking my shell configurations than any other piece of software on my system.
 For this article I will be using zsh as the example shell unless stated otherwise.</description>
@@ -20,10 +20,10 @@ For this article I will be using zsh as the example shell unless stated otherwis
     
     <item>
       <title>I Dont Care If You Use Linux</title>
-      <link>https://dunkelheit.biz/blog/i-dont-care-if-you-use-linux.html</link>
+      <link>https://dunkelheit.biz/blog/i-dont-care-if-you-use-linux/</link>
       <pubDate>Sun, 29 Aug 2021 19:30:00 +0100</pubDate>
       
-      <guid>https://dunkelheit.biz/blog/i-dont-care-if-you-use-linux.html</guid>
+      <guid>https://dunkelheit.biz/blog/i-dont-care-if-you-use-linux/</guid>
       <description>You may have seen my previous post about Free (as in freedom) software and came to the conclusion that I want to &amp;ldquo;convert&amp;rdquo; normies to using Linux. This is not the case.
 I do not care if you use Linux or not, I do not care what distro you use either. Whatever works for you, works for you and that&amp;rsquo;s great.
 The reason I recommend that you use a Linux based OS is not that I personally gain from you doing so but that you will gain from it.</description>
@@ -31,10 +31,10 @@ The reason I recommend that you use a Linux based OS is not that I personally ga
     
     <item>
       <title>Free As In Freedom</title>
-      <link>https://dunkelheit.biz/blog/free-as-in-freedom.html</link>
+      <link>https://dunkelheit.biz/blog/free-as-in-freedom/</link>
       <pubDate>Mon, 02 Aug 2021 09:00:00 +0000</pubDate>
       
-      <guid>https://dunkelheit.biz/blog/free-as-in-freedom.html</guid>
+      <guid>https://dunkelheit.biz/blog/free-as-in-freedom/</guid>
       <description>Libre, not gratis.
 I won&amp;rsquo;t go into the specifics of Free Software in this article, if you would like to know more check the references at the bottom of the page.
 Freedom is non-negotiable Your freedom as a user is the most important aspect of the software that you use.

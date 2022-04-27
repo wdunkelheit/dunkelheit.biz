@@ -6,7 +6,43 @@
     <description>Recent content in Blog Feed and Archives on Dunkelheit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 30 Nov 2021 18:00:00 +0000</lastBuildDate><atom:link href="https://dunkelheit.biz/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Apr 2022 17:00:00 +0100</lastBuildDate><atom:link href="https://dunkelheit.biz/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Who Cares About Twitter?</title>
+      <link>https://dunkelheit.biz/blog/who-cares-about-twitter/</link>
+      <pubDate>Tue, 26 Apr 2022 17:00:00 +0100</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/who-cares-about-twitter/</guid>
+      <description>Apparently it&amp;rsquo;s a big deal that Elon Musk bought Twitter. Everyone seems to be competing for the worst take regarding it. Which means it must be the Current Thing™️.
+The true based and red pilled position is as always &amp;ldquo;who cares?&amp;rdquo;
+Twitter sucks, it always sucked, it will continue to suck.
+Elon Musk wants to &amp;ldquo;verify all humans&amp;rdquo;, this effectively means KYCAML for Twitter. Apparently his reasoning for buying Twitter is to secure free speech online or something.</description>
+    </item>
+    
+    <item>
+      <title>Encrypting an External Storage Device</title>
+      <link>https://dunkelheit.biz/blog/encrypting-an-external-storage-device/</link>
+      <pubDate>Sat, 02 Apr 2022 09:20:00 +0100</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/encrypting-an-external-storage-device/</guid>
+      <description>It&amp;rsquo;s a good idea to keep backups of important data, it&amp;rsquo;s an even better idea to make sure only you can access them.
+This is a guide on how to encrypt an external storage device for use on a Linux system.
+Storage Devices This guide should be relatively universal for most external storage devices.
+For this example I am assuming you know what kind of storage device is best for your use case and that you are using a NEW device.</description>
+    </item>
+    
+    <item>
+      <title>Site Update Jan/Feb 2022</title>
+      <link>https://dunkelheit.biz/blog/site-update-january-2022/</link>
+      <pubDate>Wed, 05 Jan 2022 11:30:00 +0000</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/site-update-january-2022/</guid>
+      <description>January Update I made some changes to the site recently, they are as follows:
+ Black outer page background ThinkPad grey background moved to inner region Border around inner page Removal of &amp;ldquo;UglyURLs&amp;rdquo; Restructured hierarchy  The site hierarchy was previously as follows:
+/ -|blog/ -|2021/ -|post.html -|post2.html It is now following this hierarchy:
+/ -|blog/ -|post -|post2 Additionally I changed some other minor details that aren&amp;rsquo;t worth mentioning specifically.</description>
+    </item>
+    
     <item>
       <title>Bitcoin and Monero Extremism</title>
       <link>https://dunkelheit.biz/blog/bitcoin-monero-extremism/</link>
@@ -47,7 +83,7 @@ The articles:
       <pubDate>Sat, 02 Oct 2021 09:00:00 +0100</pubDate>
       
       <guid>https://dunkelheit.biz/blog/stop-bloating-your-shell/</guid>
-      <description>Probably my favourite part of using Linux is that I can customise my eperience.
+      <description>Probably my favourite part of using Linux is that I can customise my experience.
 The customisation options for some of the fundamental tools I use are endless and they are customisable by design. I have probably spent more time customising, modifying and tweaking my shell configurations than any other piece of software on my system.
 For this article I will be using zsh as the example shell unless stated otherwise.</description>
     </item>

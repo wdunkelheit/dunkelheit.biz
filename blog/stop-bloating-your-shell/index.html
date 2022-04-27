@@ -36,7 +36,7 @@
     
 
 
-<p>Probably my favourite part of using Linux is that I can customise my eperience.</p>
+<p>Probably my favourite part of using Linux is that I can customise my experience.</p>
 <p>The customisation options for some of the fundamental tools I use are endless and they are customisable by design. I have probably spent more time customising, modifying and tweaking my shell configurations than any other piece of software on my system.</p>
 <p>For this article I will be using <code>zsh</code> as the example shell unless stated otherwise.</p>
 <h3 id="a-shell-is-a-tool-not-a-toy">A shell is a tool, not a toy</h3>
@@ -59,17 +59,22 @@
 <p>One thing you should not do with aliases however is use them to replace a program. It is bad practice to &ldquo;rename&rdquo; a core program such as <code>ls</code> with an alternative you found online. You should instead be using this tool by its name so that you are aware of what you are doing. Using aliases to obfuscate what you are doing is dangerous.</p>
 <h3 id="shebang">Shebang</h3>
 <p>The shebang (shell bang) is used to ensure that the correct shell language is used when a file is run. For example <code>#!/bin/sh</code> would be used if a script is POSIX compliant only and uses no Non-POSIX commands. For example if you write a script in <code>BASH</code> and it uses bashisms, then your shebang should be <code>#!/bin/bash</code> instead.</p>
-<p>Setting the shebang in your scripts correctly means that when you invoke them from another shell the correct shell program is used to interpret the script. There are tools for testing your shell scripts so that you know what shebang to use, what adjustments to make to use <code>sh</code>, etc.</p>
+<p>Setting the shebang in your scripts correctly means that when you invoke them from another shell the correct shell program is used to interpret the script. There are tools for testing your shell scripts so that you know what shebang to use, what adjustments to make to use, etc. I personally quite like <code>shellcheck</code> but there are other options out there. However you should not rely on these tools and should be familiar with the commands you are using and how they work before committing them to a script. You can always check their man pages or other documentation before you commit to their use.</p>
 <p>Ideally all scripts should be POSIX compliant only, bashisms are very tempting to use as they do give you more options for your script but there is a good chance you just do not need them.</p>
 <h3 id="remote-shells">Remote Shells</h3>
-<p>If you connect to other devices using a tool like <code>ssh</code> then you should ensure that the remote user&rsquo;s shell config is configured correctly for this. A few examples of what not to do are: invocation of programs with <code>stdout</code> returns, hard declaring terminal (and emulator) compatibility, starting background processes.</p>
+<p>If you connect to other devices using a tool like <code>ssh</code> then you should ensure that the remote user&rsquo;s shell config is configured correctly for this. A few examples of what not to do are:</p>
+<ul>
+<li>Invocation of programs with <code>stdout</code> returns.</li>
+<li>Hard declaring terminal (and emulator) compatibility.</li>
+<li>Starting background processes.</li>
+</ul>
 <h3 id="additional-recommendations">Additional recommendations</h3>
 <p>When declaring your <code>PATH</code> variable you should do so explicitly, it may seem fun to use a script to do this but that is additional startup logic that you do not need and a script that you now need to maintain. Additionally you should not be declaring the <code>PATH</code> in your <code>.zshrc</code> file it should be declared in your <code>.zprofile</code> file so that your application launcher (assuming dmenu) is <code>PATH</code> aware.</p>
 <p>So instead of using a script that iterates through all the sub-directories of your <code>.local/bin/</code> directory just declare them like so:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">export PATH<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span>$PATH<span style="color:#e6db74">:</span>$HOME<span style="color:#e6db74">/.local/bin/&#34;</span>
-export PATH<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span>$PATH<span style="color:#e6db74">:</span>$HOME<span style="color:#e6db74">/.local/bin/go&#34;</span>
-export PATH<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span>$PATH<span style="color:#e6db74">:</span>$HOME<span style="color:#e6db74">/.local/bin/sh&#34;</span>
-</code></pre></div><p>This example is from my <code>.zshrc</code> file, which you can find here: <a href="https://gitlab.com/wdunkelheit/dotfiles/-/blob/master/.config/zsh/.zshrc">GitLab</a></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>export PATH<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span>$PATH<span style="color:#e6db74">:</span>$HOME<span style="color:#e6db74">/.local/bin/&#34;</span>
+</span></span><span style="display:flex;"><span>export PATH<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span>$PATH<span style="color:#e6db74">:</span>$HOME<span style="color:#e6db74">/.local/bin/go&#34;</span>
+</span></span><span style="display:flex;"><span>export PATH<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span>$PATH<span style="color:#e6db74">:</span>$HOME<span style="color:#e6db74">/.local/bin/sh&#34;</span>
+</span></span></code></pre></div><p>This example is from my <code>.zshrc</code> file, which you can find here: <a href="https://gitlab.com/wdunkelheit/dotfiles/-/blob/master/.config/zsh/.zshrc">GitLab</a></p>
 <h3 id="learning-process">Learning process</h3>
 <p>Ultimately, using the shell is a learning process. The more you use it and tinker with it they more you will learn. Feel free to <a href="/contact">email me</a> about this subject if you would like help or would like to correct anything I have said.</p>
 

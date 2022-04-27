@@ -6,7 +6,19 @@
     <description>Recent content in updates on Dunkelheit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 02 Oct 2021 10:00:00 +0100</lastBuildDate><atom:link href="https://dunkelheit.biz/tags/updates/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Jan 2022 11:30:00 +0000</lastBuildDate><atom:link href="https://dunkelheit.biz/tags/updates/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Site Update Jan/Feb 2022</title>
+      <link>https://dunkelheit.biz/blog/site-update-january-2022/</link>
+      <pubDate>Wed, 05 Jan 2022 11:30:00 +0000</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/site-update-january-2022/</guid>
+      <description>January Update I made some changes to the site recently, they are as follows:
+ Black outer page background ThinkPad grey background moved to inner region Border around inner page Removal of &amp;ldquo;UglyURLs&amp;rdquo; Restructured hierarchy  The site hierarchy was previously as follows:
+/ -|blog/ -|2021/ -|post.html -|post2.html It is now following this hierarchy:
+/ -|blog/ -|post -|post2 Additionally I changed some other minor details that aren&amp;rsquo;t worth mentioning specifically.</description>
+    </item>
+    
     <item>
       <title>Site Update October 2021</title>
       <link>https://dunkelheit.biz/blog/site-update-october-2021/</link>

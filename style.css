@@ -176,7 +176,6 @@ nav li, footer li, .tag-list li{
 
 nav li:hover, footer li:hover, .tag-list li:hover {
 	background: cornflowerblue;
-	font-weight: bold;
 }
 
 .postmeme {
@@ -204,7 +203,7 @@ nav li:hover, footer li:hover, .tag-list li:hover {
 @media (min-width: 55em){
 
 	body{
-		max-width: 1280px;
+		max-width: 960px;
 		margin: auto;
 	}
 
@@ -276,14 +275,15 @@ nav li:hover, footer li:hover, .tag-list li:hover {
 }
 
 .coininfo {
-	max-width: 280px;
+	max-width: 320px;
 	text-align: center;
 	padding-left: 10px;
 	padding-right: 10px;
 }
 
 .coininfo code {
-	font-size: 1em;
+	color: gold;
+	font-size: 0.8em;
 	overflow-wrap: break-word;
 }
 
@@ -294,7 +294,8 @@ nav li:hover, footer li:hover, .tag-list li:hover {
 
 .qr {
 	max-width: 150px;
-	padding: 10px;
+	margin: 10px;
+	background: white;
 }
 
 /* Tag Symbols */
@@ -305,9 +306,11 @@ nav li:hover, footer li:hover, .tag-list li:hover {
 #list-tag-food:BEFORE { content: "🥩 "; }
 #list-tag-language:BEFORE { content: "🔠 "; }
 #list-tag-linux:BEFORE { content: "🐧 "; }
+#list-tag-music:BEFORE { content: "🎵 "; }
 #list-tag-programming:BEFORE { content: "💻 "; }
 #list-tag-philosophy:BEFORE { content: "🤔 "; }
 #list-tag-software:BEFORE { content: "💾 "; }
 #list-tag-technology:BEFORE { content: "🏭 "; }
+#list-tag-tutorial:BEFORE { content: "🏫‍ "; }
 #list-tag-updates:BEFORE { content: "🔄 "; }
 #list-tag-video-games:BEFORE { content: "🎮 "; }

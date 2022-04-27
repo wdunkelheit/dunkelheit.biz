@@ -6,49 +6,58 @@
     <description>Recent content in Tags on Dunkelheit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 30 Nov 2021 18:00:00 +0000</lastBuildDate><atom:link href="https://dunkelheit.biz/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>cryptocurrency</title>
-      <link>https://dunkelheit.biz/tags/cryptocurrency/</link>
-      <pubDate>Tue, 30 Nov 2021 18:00:00 +0000</pubDate>
-      
-      <guid>https://dunkelheit.biz/tags/cryptocurrency/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>technology</title>
-      <link>https://dunkelheit.biz/tags/technology/</link>
-      <pubDate>Tue, 30 Nov 2021 18:00:00 +0000</pubDate>
-      
-      <guid>https://dunkelheit.biz/tags/technology/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Tue, 26 Apr 2022 17:00:00 +0100</lastBuildDate><atom:link href="https://dunkelheit.biz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>software</title>
       <link>https://dunkelheit.biz/tags/software/</link>
-      <pubDate>Wed, 10 Nov 2021 14:00:00 +0000</pubDate>
+      <pubDate>Tue, 26 Apr 2022 17:00:00 +0100</pubDate>
       
       <guid>https://dunkelheit.biz/tags/software/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>updates</title>
-      <link>https://dunkelheit.biz/tags/updates/</link>
-      <pubDate>Sat, 02 Oct 2021 10:00:00 +0100</pubDate>
+      <title>technology</title>
+      <link>https://dunkelheit.biz/tags/technology/</link>
+      <pubDate>Tue, 26 Apr 2022 17:00:00 +0100</pubDate>
       
-      <guid>https://dunkelheit.biz/tags/updates/</guid>
+      <guid>https://dunkelheit.biz/tags/technology/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
       <link>https://dunkelheit.biz/tags/linux/</link>
-      <pubDate>Sat, 02 Oct 2021 09:00:00 +0100</pubDate>
+      <pubDate>Sat, 02 Apr 2022 09:20:00 +0100</pubDate>
       
       <guid>https://dunkelheit.biz/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tutorial</title>
+      <link>https://dunkelheit.biz/tags/tutorial/</link>
+      <pubDate>Sat, 02 Apr 2022 09:20:00 +0100</pubDate>
+      
+      <guid>https://dunkelheit.biz/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>updates</title>
+      <link>https://dunkelheit.biz/tags/updates/</link>
+      <pubDate>Wed, 05 Jan 2022 11:30:00 +0000</pubDate>
+      
+      <guid>https://dunkelheit.biz/tags/updates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cryptocurrency</title>
+      <link>https://dunkelheit.biz/tags/cryptocurrency/</link>
+      <pubDate>Tue, 30 Nov 2021 18:00:00 +0000</pubDate>
+      
+      <guid>https://dunkelheit.biz/tags/cryptocurrency/</guid>
       <description></description>
     </item>
     

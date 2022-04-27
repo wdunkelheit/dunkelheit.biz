@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tutorial on Dunkelheit</title>
+    <link>https://dunkelheit.biz/tags/tutorial/</link>
+    <description>Recent content in tutorial on Dunkelheit</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 02 Apr 2022 09:20:00 +0100</lastBuildDate><atom:link href="https://dunkelheit.biz/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Encrypting an External Storage Device</title>
+      <link>https://dunkelheit.biz/blog/encrypting-an-external-storage-device/</link>
+      <pubDate>Sat, 02 Apr 2022 09:20:00 +0100</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/encrypting-an-external-storage-device/</guid>
+      <description>It&amp;rsquo;s a good idea to keep backups of important data, it&amp;rsquo;s an even better idea to make sure only you can access them.
+This is a guide on how to encrypt an external storage device for use on a Linux system.
+Storage Devices This guide should be relatively universal for most external storage devices.
+For this example I am assuming you know what kind of storage device is best for your use case and that you are using a NEW device.</description>
+    </item>
+    
+    <item>
+      <title>Generating QR Codes for Crypto</title>
+      <link>https://dunkelheit.biz/blog/generating-qr-codes-for-crypto/</link>
+      <pubDate>Wed, 10 Nov 2021 14:00:00 +0000</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/generating-qr-codes-for-crypto/</guid>
+      <description>If you run a blog or a website or have any kind of online presence then you should be accepting crypto donations.
+I will not explain why you should accept crypto here because this article exists. Please read it.
+Crypto Addresses You don&amp;rsquo;t need to use third party platforms to do this.
+All you need is your address and you are good to go. In this example I will be assuming that you have custody of your crypto wallet(s) and don&amp;rsquo;t use fiat-crypto™️ platforms.</description>
+    </item>
+    
+  </channel>
+</rss>

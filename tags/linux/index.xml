@@ -6,14 +6,26 @@
     <description>Recent content in linux on Dunkelheit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 02 Oct 2021 09:00:00 +0100</lastBuildDate><atom:link href="https://dunkelheit.biz/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Apr 2022 09:20:00 +0100</lastBuildDate><atom:link href="https://dunkelheit.biz/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Encrypting an External Storage Device</title>
+      <link>https://dunkelheit.biz/blog/encrypting-an-external-storage-device/</link>
+      <pubDate>Sat, 02 Apr 2022 09:20:00 +0100</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/encrypting-an-external-storage-device/</guid>
+      <description>It&amp;rsquo;s a good idea to keep backups of important data, it&amp;rsquo;s an even better idea to make sure only you can access them.
+This is a guide on how to encrypt an external storage device for use on a Linux system.
+Storage Devices This guide should be relatively universal for most external storage devices.
+For this example I am assuming you know what kind of storage device is best for your use case and that you are using a NEW device.</description>
+    </item>
+    
     <item>
       <title>Stop Bloating Your Shell</title>
       <link>https://dunkelheit.biz/blog/stop-bloating-your-shell/</link>
       <pubDate>Sat, 02 Oct 2021 09:00:00 +0100</pubDate>
       
       <guid>https://dunkelheit.biz/blog/stop-bloating-your-shell/</guid>
-      <description>Probably my favourite part of using Linux is that I can customise my eperience.
+      <description>Probably my favourite part of using Linux is that I can customise my experience.
 The customisation options for some of the fundamental tools I use are endless and they are customisable by design. I have probably spent more time customising, modifying and tweaking my shell configurations than any other piece of software on my system.
 For this article I will be using zsh as the example shell unless stated otherwise.</description>
     </item>

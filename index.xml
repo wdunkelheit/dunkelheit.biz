@@ -6,7 +6,140 @@
     <description>Recent content on Dunkelheit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 05 Jan 2022 09:39:42 +0000</lastBuildDate><atom:link href="https://dunkelheit.biz/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Apr 2022 17:00:00 +0100</lastBuildDate><atom:link href="https://dunkelheit.biz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Who Cares About Twitter?</title>
+      <link>https://dunkelheit.biz/blog/who-cares-about-twitter/</link>
+      <pubDate>Tue, 26 Apr 2022 17:00:00 +0100</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/who-cares-about-twitter/</guid>
+      <description>&lt;p&gt;Apparently it&amp;rsquo;s a big deal that Elon Musk bought Twitter. Everyone seems to be competing for the worst take regarding it. Which means it must be the Current Thing™️.&lt;/p&gt;
+&lt;p&gt;The true based and red pilled position is as always &amp;ldquo;who cares?&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Twitter sucks, it always sucked, it will continue to suck.&lt;/p&gt;
+&lt;p&gt;Elon Musk wants to &amp;ldquo;verify all humans&amp;rdquo;, this effectively means KYCAML for Twitter. Apparently his reasoning for buying Twitter is to secure free speech online or something. A laughable statement when combined with his proposed human verification efforts.&lt;/p&gt;
+&lt;p&gt;If you want a more free (as in freedom) alternative to Twitter then maybe look into Fediverse services such as Mastodon and Pleroma. Do your research before you join an instance of course. Many of them are more censorious than Twitter.&lt;/p&gt;
+&lt;p&gt;If you want a truly free instance then run your own, create your own rules, block instances that you don&amp;rsquo;t like, etc. You can learn how to host your own Pleroma instance with their &lt;a href=&#34;https://docs-develop.pleroma.social/backend/installation/otp_en/&#34;&gt;official documentation&lt;/a&gt; or at &lt;a href=&#34;https://landchad.net/pleroma.html&#34;&gt;LandChad&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Encrypting an External Storage Device</title>
+      <link>https://dunkelheit.biz/blog/encrypting-an-external-storage-device/</link>
+      <pubDate>Sat, 02 Apr 2022 09:20:00 +0100</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/encrypting-an-external-storage-device/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s a good idea to keep backups of important data, it&amp;rsquo;s an even better idea to make sure only you can access them.&lt;/p&gt;
+&lt;p&gt;This is a guide on how to encrypt an external storage device for use on a Linux system.&lt;/p&gt;
+&lt;h3 id=&#34;storage-devices&#34;&gt;Storage Devices&lt;/h3&gt;
+&lt;p&gt;This guide should be relatively universal for most external storage devices.&lt;/p&gt;
+&lt;p&gt;For this example I am assuming you know what kind of storage device is best for your use case and that you are using a NEW device.&lt;/p&gt;
+&lt;p&gt;&lt;strong style=&#34;color:red;&#34;&gt;Important Notice:&lt;/strong&gt; If you are using a device that you have used previously you may wish to securely wipe all data on it first. I do not have a guide for this at this time. I will update this post in the future if that changes.&lt;/p&gt;
+&lt;h3 id=&#34;requirements&#34;&gt;Requirements:&lt;/h3&gt;
+&lt;p&gt;You will need the following to follow this guide along:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A computer running a GNU/Linux operating system.&lt;/li&gt;
+&lt;li&gt;An external storage device.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;cryptsetup&lt;/code&gt; package installed.
+&lt;ul&gt;
+&lt;li&gt;Name may vary based on distro.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;encrypting-the-device&#34;&gt;Encrypting The Device&lt;/h3&gt;
+&lt;h4 id=&#34;1-find-your-devices-path&#34;&gt;1. Find your device&amp;rsquo;s path.&lt;/h4&gt;
+&lt;p&gt;You can do so with the following command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo fdisk -l
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The output of this command will list information about each storage device connected to your computer. Such as it&amp;rsquo;s total capacity in GiB units and the model number. You can use this information to determine which disk is the one you intend to write to.&lt;/p&gt;
+&lt;p&gt;From this point forward I will be referring to this device as /dev/sdx.&lt;/p&gt;
+&lt;h4 id=&#34;2-set-up-partition-table&#34;&gt;2. Set up partition table.&lt;/h4&gt;
+&lt;p&gt;Most drives when purchased will come with the msdos partition table, you don&amp;rsquo;t need this for a Linux machine. The following command will change it to use the GPT partition table.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo parted /dev/sdx mklabel gpt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The drive now has the GPT partition table format.&lt;/p&gt;
+&lt;h4 id=&#34;3-creating-a-luks-device&#34;&gt;3. Creating a LUKS device.&lt;/h4&gt;
+&lt;p&gt;We will now create the LUKS device. Using the following command.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo cryptsetup luksFormat /dev/sdx
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now it will ask you for a password and to confirm it. I assume you know how to choose a strong one.&lt;/p&gt;
+&lt;h4 id=&#34;4-mapping-the-device&#34;&gt;4. Mapping the device.&lt;/h4&gt;
+&lt;p&gt;We will now mount the device to the mapper. This allows us to use it like a normal storage device.&lt;/p&gt;
+&lt;p&gt;You will want to name the device at this stage, we will refer to your given name as DevName from here on.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo cryptsetup luksOpen /dev/sdx DevName
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The device is now available for usage as a normal storage device would be if it were unmounted.&lt;/p&gt;
+&lt;h4 id=&#34;5-formatting-the-device&#34;&gt;5. Formatting the device.&lt;/h4&gt;
+&lt;p&gt;At this stage we will be formatting the device as the ext4 Linux format. To do that we run the following command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo mkfs.ext4 /dev/mapper/DevName
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The device now has the ext4 format and can be mounted.&lt;/p&gt;
+&lt;h3 id=&#34;mounting-the-device&#34;&gt;Mounting The Device&lt;/h3&gt;
+&lt;p&gt;At this stage you can mount the device the way you normally would an external device.&lt;/p&gt;
+&lt;p&gt;You can use your GUI file manager such as &lt;code&gt;pcmanfam&lt;/code&gt; or &lt;code&gt;dolphin&lt;/code&gt; to open it.&lt;/p&gt;
+&lt;p&gt;You can also do the following to open it using the terminal:&lt;/p&gt;
+&lt;h4 id=&#34;1-repeat-step-4-above-mapping-the-device&#34;&gt;1. Repeat step 4 above. (Mapping the device)&lt;/h4&gt;
+&lt;p&gt;You can skip this if it is still mapped from earlier.&lt;/p&gt;
+&lt;h4 id=&#34;2-mount-the-drive&#34;&gt;2. Mount the drive.&lt;/h4&gt;
+&lt;p&gt;You can now mount the device as you would normally do so for an external device via the terminal.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo mount /dev/mapper/DevName &amp;lt;/path/to/mount/point/&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;unmounting-the-device&#34;&gt;Unmounting the device&lt;/h3&gt;
+&lt;h4 id=&#34;1-unmounting-the-drive&#34;&gt;1. Unmounting the drive.&lt;/h4&gt;
+&lt;p&gt;You can unmount the drive using the following command.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo umount &amp;lt;/path/to/mount/point&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;2-unmapping-the-device&#34;&gt;2. Unmapping the device.&lt;/h4&gt;
+&lt;p&gt;You can unmap the device using the following command.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo cryptsetup luksClose DevName
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can now safely remove the device from the computer.&lt;/p&gt;
+&lt;h3 id=&#34;tips&#34;&gt;Tips:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;If you prefer to use a graphical file manager then you should use one.
+&lt;ul&gt;
+&lt;li&gt;In fact for external devices I recommend doing so.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;You can use other formats for the disk if you wish.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Site Update Jan/Feb 2022</title>
+      <link>https://dunkelheit.biz/blog/site-update-january-2022/</link>
+      <pubDate>Wed, 05 Jan 2022 11:30:00 +0000</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/site-update-january-2022/</guid>
+      <description>&lt;h3 id=&#34;january-update&#34;&gt;January Update&lt;/h3&gt;
+&lt;p&gt;I made some changes to the site recently, they are as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Black outer page background&lt;/li&gt;
+&lt;li&gt;ThinkPad grey background moved to inner region&lt;/li&gt;
+&lt;li&gt;Border around inner page&lt;/li&gt;
+&lt;li&gt;Removal of &amp;ldquo;UglyURLs&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Restructured hierarchy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The site hierarchy was previously as follows:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-filestructure&#34; data-lang=&#34;filestructure&#34;&gt;/
+-|blog/
+  -|2021/
+    -|post.html
+    -|post2.html
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;It is now following this hierarchy:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-filestructure&#34; data-lang=&#34;filestructure&#34;&gt;/
+-|blog/
+  -|post
+  -|post2
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Additionally I changed some other minor details that aren&amp;rsquo;t worth mentioning specifically.&lt;/p&gt;
+&lt;p&gt;The following are new additions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A &lt;a href=&#34;https://dunkelheit.biz/2021&#34;&gt;2021 Archive Page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New Tags:
+&lt;ul&gt;
+&lt;li&gt;Food&lt;/li&gt;
+&lt;li&gt;Clothes&lt;/li&gt;
+&lt;li&gt;Music&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;february-update&#34;&gt;February Update&lt;/h3&gt;
+&lt;p&gt;I no longer host an XMPP node. If you wish to contact me please do so via email.&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>Bitcoin and Monero Extremism</title>
       <link>https://dunkelheit.biz/blog/bitcoin-monero-extremism/</link>
@@ -59,11 +192,11 @@
 &lt;p&gt;Now that you have these two tools you are ready to go.&lt;/p&gt;
 &lt;h3 id=&#34;generating-the-qr-code&#34;&gt;Generating the QR code.&lt;/h3&gt;
 &lt;p&gt;Input the following into your terminal:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;qr &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;lt;your crypto address&amp;gt;&amp;#34;&lt;/span&gt; &amp;gt; xmr.png
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Replacing &lt;code&gt;&amp;lt;your crypto address&amp;gt;&lt;/code&gt; with your actual address.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;qr &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;lt;your crypto address&amp;gt;&amp;#34;&lt;/span&gt; &amp;gt; xmr.png
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Replacing &lt;code&gt;&amp;lt;your crypto address&amp;gt;&lt;/code&gt; with your actual address.&lt;/p&gt;
 &lt;p&gt;For me this would look like this:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;qr &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;87ukrCxsbK79rQbGwutzTmE4RDPiayn3xK5JT63iiSks5Q9TMCsXzUibXEea1q6x6ij6u2UDxzXpNBU5bP4u8Wz34esoLRG&amp;#34;&lt;/span&gt; &amp;gt; xmr.png
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You will now have a png image file in your current directory. You can now use this on your website.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;qr &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;87ukrCxsbK79rQbGwutzTmE4RDPiayn3xK5JT63iiSks5Q9TMCsXzUibXEea1q6x6ij6u2UDxzXpNBU5bP4u8Wz34esoLRG&amp;#34;&lt;/span&gt; &amp;gt; xmr.png
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You will now have a png image file in your current directory. You can now use this on your website.&lt;/p&gt;
 &lt;p&gt;For an example of it in use see &lt;a href=&#34;https://dunkelheit.biz/donate&#34;&gt;this page&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;why-use-this-program&#34;&gt;Why Use This Program?&lt;/h3&gt;
 &lt;p&gt;You may be considering using an online QR code generator. But any code running on someone else&amp;rsquo;s hardware cannot be trusted with something as sensitive as this.&lt;/p&gt;
@@ -96,10 +229,6 @@
 &lt;p&gt;Did you notice the Halloween Apus? It&amp;rsquo;s Spooktober! 👻 I experimented with a few designs for them but this one seems the least intrusive.&lt;/p&gt;
 &lt;p&gt;I also finally decided on the background colour for the site. I settled for ThinkPad grey, also known as HTML notation &lt;code&gt;#222222&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Additionally I have started work on a new layout for the site. I don&amp;rsquo;t plan to replace the current one with it. I don&amp;rsquo;t yet know how or if I will use it, I will update if this changes.&lt;/p&gt;
-&lt;h3 id=&#34;anti-github-gang&#34;&gt;Anti-GitHub Gang&lt;/h3&gt;
-&lt;p&gt;I am not a fan of GitHub, I never really have been. It encourages bad practices and a monolithic approach to design and engineering. Additionally it is owned by Microsoft, who have been using the site to scrape code from millions of projects to power their license violating &amp;ldquo;AI&amp;rdquo; code generator. This is a bridge too far and I will be retiring my GitHub account in some manner in the near future.&lt;/p&gt;
-&lt;p&gt;You will still be able to find my projects on &lt;a href=&#34;https://gitlab.com/wdunkelheit&#34;&gt;GitLab&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;I also plan to host my own Git web front end of some kind, I haven&amp;rsquo;t decided which one yet.&lt;/p&gt;
 &lt;h3 id=&#34;trying-out-openbsd&#34;&gt;Trying out OpenBSD&lt;/h3&gt;
 &lt;p&gt;I have been meaning to try out OpenBSD for a long time, I plan to install it on hardware in the near future and report my thoughts on the experience here.&lt;/p&gt;
 &lt;h3 id=&#34;returning-to-university&#34;&gt;Returning to University&lt;/h3&gt;
@@ -113,7 +242,7 @@
       <pubDate>Sat, 02 Oct 2021 09:00:00 +0100</pubDate>
       
       <guid>https://dunkelheit.biz/blog/stop-bloating-your-shell/</guid>
-      <description>&lt;p&gt;Probably my favourite part of using Linux is that I can customise my eperience.&lt;/p&gt;
+      <description>&lt;p&gt;Probably my favourite part of using Linux is that I can customise my experience.&lt;/p&gt;
 &lt;p&gt;The customisation options for some of the fundamental tools I use are endless and they are customisable by design. I have probably spent more time customising, modifying and tweaking my shell configurations than any other piece of software on my system.&lt;/p&gt;
 &lt;p&gt;For this article I will be using &lt;code&gt;zsh&lt;/code&gt; as the example shell unless stated otherwise.&lt;/p&gt;
 &lt;h3 id=&#34;a-shell-is-a-tool-not-a-toy&#34;&gt;A shell is a tool, not a toy&lt;/h3&gt;
@@ -136,17 +265,22 @@
 &lt;p&gt;One thing you should not do with aliases however is use them to replace a program. It is bad practice to &amp;ldquo;rename&amp;rdquo; a core program such as &lt;code&gt;ls&lt;/code&gt; with an alternative you found online. You should instead be using this tool by its name so that you are aware of what you are doing. Using aliases to obfuscate what you are doing is dangerous.&lt;/p&gt;
 &lt;h3 id=&#34;shebang&#34;&gt;Shebang&lt;/h3&gt;
 &lt;p&gt;The shebang (shell bang) is used to ensure that the correct shell language is used when a file is run. For example &lt;code&gt;#!/bin/sh&lt;/code&gt; would be used if a script is POSIX compliant only and uses no Non-POSIX commands. For example if you write a script in &lt;code&gt;BASH&lt;/code&gt; and it uses bashisms, then your shebang should be &lt;code&gt;#!/bin/bash&lt;/code&gt; instead.&lt;/p&gt;
-&lt;p&gt;Setting the shebang in your scripts correctly means that when you invoke them from another shell the correct shell program is used to interpret the script. There are tools for testing your shell scripts so that you know what shebang to use, what adjustments to make to use &lt;code&gt;sh&lt;/code&gt;, etc.&lt;/p&gt;
+&lt;p&gt;Setting the shebang in your scripts correctly means that when you invoke them from another shell the correct shell program is used to interpret the script. There are tools for testing your shell scripts so that you know what shebang to use, what adjustments to make to use, etc. I personally quite like &lt;code&gt;shellcheck&lt;/code&gt; but there are other options out there. However you should not rely on these tools and should be familiar with the commands you are using and how they work before committing them to a script. You can always check their man pages or other documentation before you commit to their use.&lt;/p&gt;
 &lt;p&gt;Ideally all scripts should be POSIX compliant only, bashisms are very tempting to use as they do give you more options for your script but there is a good chance you just do not need them.&lt;/p&gt;
 &lt;h3 id=&#34;remote-shells&#34;&gt;Remote Shells&lt;/h3&gt;
-&lt;p&gt;If you connect to other devices using a tool like &lt;code&gt;ssh&lt;/code&gt; then you should ensure that the remote user&amp;rsquo;s shell config is configured correctly for this. A few examples of what not to do are: invocation of programs with &lt;code&gt;stdout&lt;/code&gt; returns, hard declaring terminal (and emulator) compatibility, starting background processes.&lt;/p&gt;
+&lt;p&gt;If you connect to other devices using a tool like &lt;code&gt;ssh&lt;/code&gt; then you should ensure that the remote user&amp;rsquo;s shell config is configured correctly for this. A few examples of what not to do are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Invocation of programs with &lt;code&gt;stdout&lt;/code&gt; returns.&lt;/li&gt;
+&lt;li&gt;Hard declaring terminal (and emulator) compatibility.&lt;/li&gt;
+&lt;li&gt;Starting background processes.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&#34;additional-recommendations&#34;&gt;Additional recommendations&lt;/h3&gt;
 &lt;p&gt;When declaring your &lt;code&gt;PATH&lt;/code&gt; variable you should do so explicitly, it may seem fun to use a script to do this but that is additional startup logic that you do not need and a script that you now need to maintain. Additionally you should not be declaring the &lt;code&gt;PATH&lt;/code&gt; in your &lt;code&gt;.zshrc&lt;/code&gt; file it should be declared in your &lt;code&gt;.zprofile&lt;/code&gt; file so that your application launcher (assuming dmenu) is &lt;code&gt;PATH&lt;/code&gt; aware.&lt;/p&gt;
 &lt;p&gt;So instead of using a script that iterates through all the sub-directories of your &lt;code&gt;.local/bin/&lt;/code&gt; directory just declare them like so:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;export PATH&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$PATH&lt;span style=&#34;color:#e6db74&#34;&gt;:&lt;/span&gt;$HOME&lt;span style=&#34;color:#e6db74&#34;&gt;/.local/bin/&amp;#34;&lt;/span&gt;
-export PATH&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$PATH&lt;span style=&#34;color:#e6db74&#34;&gt;:&lt;/span&gt;$HOME&lt;span style=&#34;color:#e6db74&#34;&gt;/.local/bin/go&amp;#34;&lt;/span&gt;
-export PATH&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$PATH&lt;span style=&#34;color:#e6db74&#34;&gt;:&lt;/span&gt;$HOME&lt;span style=&#34;color:#e6db74&#34;&gt;/.local/bin/sh&amp;#34;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This example is from my &lt;code&gt;.zshrc&lt;/code&gt; file, which you can find here: &lt;a href=&#34;https://gitlab.com/wdunkelheit/dotfiles/-/blob/master/.config/zsh/.zshrc&#34;&gt;GitLab&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;export PATH&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$PATH&lt;span style=&#34;color:#e6db74&#34;&gt;:&lt;/span&gt;$HOME&lt;span style=&#34;color:#e6db74&#34;&gt;/.local/bin/&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;export PATH&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$PATH&lt;span style=&#34;color:#e6db74&#34;&gt;:&lt;/span&gt;$HOME&lt;span style=&#34;color:#e6db74&#34;&gt;/.local/bin/go&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;export PATH&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$PATH&lt;span style=&#34;color:#e6db74&#34;&gt;:&lt;/span&gt;$HOME&lt;span style=&#34;color:#e6db74&#34;&gt;/.local/bin/sh&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This example is from my &lt;code&gt;.zshrc&lt;/code&gt; file, which you can find here: &lt;a href=&#34;https://gitlab.com/wdunkelheit/dotfiles/-/blob/master/.config/zsh/.zshrc&#34;&gt;GitLab&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;learning-process&#34;&gt;Learning process&lt;/h3&gt;
 &lt;p&gt;Ultimately, using the shell is a learning process. The more you use it and tinker with it they more you will learn. Feel free to &lt;a href=&#34;https://dunkelheit.biz/contact&#34;&gt;email me&lt;/a&gt; about this subject if you would like help or would like to correct anything I have said.&lt;/p&gt;
 </description>
